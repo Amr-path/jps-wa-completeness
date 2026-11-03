@@ -1,0 +1,11 @@
+w=1 slack 8.000000 replay 8.000000  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 6.585786
+w=1.1 slack 7.858579 replay 7.858579  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 6.302944
+w=1.2 slack 7.717157 replay 7.717157  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 6.020101
+w=1.5 slack 7.414214 replay 7.414214  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 5.292893
+w=2 slack 7.656854 replay 7.656854  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 4.828427
+w=3 slack 9.899495 replay 9.899495  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 5.656854
+w=5 slack 14.000000 replay 14.000000  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 6.928932
+w=10 slack 19.000000 replay 19.000000  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 4.857864
+w=100 slack 148.835570 replay 148.835570  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 7.414214
+w=1e+06 slack 1414220.976587 replay 1414220.976587  theta=v-1e-6:complete theta=v:FAIL  WA*(theta=0):complete states 4  slack-sqrt2w 7.414214
+climb_1 ev4: 7.414214 replay 7.414214 v-1e-6:complete v:FAIL WA*:complete

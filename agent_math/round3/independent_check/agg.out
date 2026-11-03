@@ -1,0 +1,98 @@
+full sweep: solvable runs, inf rows, viol, notfound (1177248, 432, 0, 0)
+solvable instances per set (jps_cell,w=1): {'bg512': 4670, 'dao': 7998, 'mazes': 11753, 'sc1': 9929, 'da2': 3422, 'rooms': 3952, 'random': 7328} total 49052
+set w | exp cell state fls wa | scan(k) cell state fls | max ratio cell state fls wa | mean ratio
+dao 1.0 | 448 940 448 13442 | 42.6 113.8 42.6 0.0 | 1.000 1.000 1.000 1.000 | 1.0000 1.0000 1.0000 1.0000 | st/cell 2.10 fls/cell 1.000 scan st/cell 2.67
+dao 1.5 | 357 683 396 9285 | 33.6 78.9 37.5 0.0 | 1.325 1.335 1.325 1.195 | 1.0152 1.0160 1.0152 1.0283 | st/cell 1.92 fls/cell 1.109 scan st/cell 2.35
+dao 2.0 | 307 575 328 7559 | 28.7 65.4 30.8 0.0 | 1.556 1.556 1.556 1.322 | 1.0318 1.0336 1.0317 1.0392 | st/cell 1.87 fls/cell 1.070 scan st/cell 2.28
+dao 3.0 | 271 474 284 6163 | 25.4 52.9 26.7 0.0 | 1.914 1.945 1.914 1.564 | 1.0601 1.0677 1.0600 1.0584 | st/cell 1.75 fls/cell 1.048 scan st/cell 2.08
+dao 5.0 | 247 417 257 5304 | 23.3 46.1 24.3 0.0 | 2.768 2.503 2.768 1.711 | 1.0948 1.1094 1.0947 1.0862 | st/cell 1.69 fls/cell 1.042 scan st/cell 1.98
+dao 10.0 | 230 381 238 4709 | 21.6 41.8 22.4 0.0 | 3.436 3.405 3.436 2.761 | 1.1254 1.1528 1.1254 1.1034 | st/cell 1.66 fls/cell 1.035 scan st/cell 1.94
+da2 1.0 | 143 204 143 6267 | 11.6 18.8 11.6 0.0 | 1.000 1.000 1.000 1.000 | 1.0000 1.0000 1.0000 1.0000 | st/cell 1.43 fls/cell 1.000 scan st/cell 1.62
+da2 1.5 | 106 139 107 4051 | 9.0 12.8 9.1 0.0 | 1.267 1.267 1.267 1.199 | 1.0075 1.0076 1.0074 1.0248 | st/cell 1.32 fls/cell 1.016 scan st/cell 1.43
+da2 2.0 | 93 120 94 3217 | 8.1 11.3 8.2 0.0 | 1.523 1.628 1.523 1.243 | 1.0167 1.0185 1.0167 1.0349 | st/cell 1.29 fls/cell 1.010 scan st/cell 1.39
+da2 3.0 | 87 109 87 2690 | 7.7 10.4 7.8 0.0 | 1.876 1.876 1.876 1.394 | 1.0297 1.0361 1.0296 1.0540 | st/cell 1.26 fls/cell 1.008 scan st/cell 1.35
+da2 5.0 | 86 106 87 2431 | 7.7 10.1 7.8 0.0 | 2.914 2.479 2.914 1.596 | 1.0494 1.0603 1.0494 1.0840 | st/cell 1.23 fls/cell 1.006 scan st/cell 1.30
+da2 10.0 | 87 106 87 2270 | 7.8 10.0 7.8 0.0 | 3.112 2.479 3.112 2.358 | 1.0666 1.0834 1.0666 1.1033 | st/cell 1.22 fls/cell 1.005 scan st/cell 1.29
+bg512 1.0 | 42 52 42 7920 | 28.4 33.2 28.4 0.0 | 1.000 1.000 1.000 1.000 | 1.0000 1.0000 1.0000 1.0000 | st/cell 1.23 fls/cell 1.000 scan st/cell 1.17
+bg512 1.5 | 30 34 30 2781 | 23.3 25.0 23.4 0.0 | 1.297 1.297 1.297 1.209 | 1.0076 1.0079 1.0075 1.0172 | st/cell 1.15 fls/cell 1.013 scan st/cell 1.08
+bg512 2.0 | 28 32 29 2102 | 22.7 24.0 22.8 0.0 | 1.602 1.602 1.602 1.443 | 1.0182 1.0192 1.0182 1.0255 | st/cell 1.13 fls/cell 1.009 scan st/cell 1.06
+bg512 3.0 | 28 31 28 1735 | 22.8 23.9 22.8 0.0 | 1.977 1.977 1.977 1.702 | 1.0409 1.0419 1.0409 1.0411 | st/cell 1.12 fls/cell 1.007 scan st/cell 1.05
+bg512 5.0 | 29 32 29 1576 | 23.2 24.3 23.2 0.0 | 2.352 2.878 2.352 2.135 | 1.0655 1.0689 1.0655 1.0685 | st/cell 1.11 fls/cell 1.005 scan st/cell 1.05
+bg512 10.0 | 30 33 30 1474 | 23.7 24.7 23.7 0.0 | 2.663 2.878 2.663 2.364 | 1.0919 1.0979 1.0919 1.0807 | st/cell 1.11 fls/cell 1.004 scan st/cell 1.04
+sc1 1.0 | 787 1238 787 50201 | 140.7 278.4 140.7 0.0 | 1.000 1.000 1.000 1.000 | 1.0000 1.0000 1.0000 1.0000 | st/cell 1.57 fls/cell 1.000 scan st/cell 1.98
+sc1 1.5 | 474 699 488 26336 | 82.2 146.8 84.8 0.0 | 1.322 1.322 1.322 1.294 | 1.0183 1.0190 1.0184 1.0331 | st/cell 1.48 fls/cell 1.030 scan st/cell 1.79
+sc1 2.0 | 392 560 399 19701 | 67.8 115.2 69.0 0.0 | 1.601 1.650 1.601 1.525 | 1.0399 1.0422 1.0399 1.0507 | st/cell 1.43 fls/cell 1.018 scan st/cell 1.70
+sc1 3.0 | 348 475 352 15466 | 59.9 94.7 60.6 0.0 | 2.174 2.174 2.174 1.885 | 1.0832 1.0899 1.0832 1.0774 | st/cell 1.36 fls/cell 1.012 scan st/cell 1.58
+sc1 5.0 | 335 445 338 13303 | 57.4 87.9 57.8 0.0 | 2.687 2.846 2.687 2.612 | 1.1291 1.1457 1.1291 1.1208 | st/cell 1.33 fls/cell 1.009 scan st/cell 1.53
+sc1 10.0 | 330 431 332 12073 | 56.2 84.2 56.5 0.0 | 3.564 3.398 3.564 3.214 | 1.1720 1.2012 1.1719 1.1515 | st/cell 1.31 fls/cell 1.007 scan st/cell 1.50
+rooms 1.0 | 1094 1787 1094 36418 | 71.1 95.4 71.1 0.0 | 1.000 1.000 1.000 1.000 | 1.0000 1.0000 1.0000 1.0000 | st/cell 1.63 fls/cell 1.000 scan st/cell 1.34
+rooms 1.5 | 92 99 92 8956 | 21.0 23.1 21.2 0.0 | 1.226 1.226 1.226 1.243 | 1.0256 1.0255 1.0256 1.0579 | st/cell 1.08 fls/cell 1.003 scan st/cell 1.10
+rooms 2.0 | 78 81 78 6293 | 17.9 19.2 17.9 0.0 | 1.402 1.402 1.402 1.439 | 1.0438 1.0437 1.0438 1.0977 | st/cell 1.05 fls/cell 1.000 scan st/cell 1.07
+rooms 3.0 | 73 76 73 5025 | 16.6 17.5 16.6 0.0 | 1.655 1.655 1.655 1.699 | 1.0697 1.0695 1.0697 1.1438 | st/cell 1.03 fls/cell 1.000 scan st/cell 1.06
+rooms 5.0 | 72 74 72 4465 | 16.2 17.0 16.2 0.0 | 2.114 2.114 2.114 2.234 | 1.1001 1.1000 1.1001 1.2257 | st/cell 1.03 fls/cell 1.000 scan st/cell 1.05
+rooms 10.0 | 72 73 72 4075 | 16.1 16.7 16.1 0.0 | 2.939 2.939 2.939 3.569 | 1.1239 1.1239 1.1238 1.2814 | st/cell 1.02 fls/cell 1.000 scan st/cell 1.04
+random 1.0 | 11033 24518 11033 25835 | 54.4 128.5 54.4 0.0 | 1.000 1.000 1.000 1.000 | 1.0000 1.0000 1.0000 1.0000 | st/cell 2.22 fls/cell 1.000 scan st/cell 2.36
+random 1.5 | 2930 5502 3561 7205 | 10.7 21.1 12.9 0.0 | 1.188 1.188 1.188 1.188 | 1.0455 1.0449 1.0455 1.0414 | st/cell 1.88 fls/cell 1.215 scan st/cell 1.97
+random 2.0 | 2184 4022 2504 5344 | 8.1 15.5 9.2 0.0 | 1.377 1.377 1.377 1.321 | 1.0744 1.0735 1.0743 1.0686 | st/cell 1.84 fls/cell 1.146 scan st/cell 1.91
+random 3.0 | 1632 2933 1790 3925 | 6.2 11.4 6.7 0.0 | 1.612 1.612 1.612 1.491 | 1.1195 1.1190 1.1195 1.0911 | st/cell 1.80 fls/cell 1.097 scan st/cell 1.85
+random 5.0 | 1396 2460 1489 3324 | 5.3 9.6 5.7 0.0 | 2.032 2.032 2.032 2.078 | 1.1585 1.1580 1.1585 1.1180 | st/cell 1.76 fls/cell 1.067 scan st/cell 1.80
+random 10.0 | 1297 2255 1359 3049 | 5.0 8.8 5.2 0.0 | 2.193 2.308 2.193 2.428 | 1.1933 1.1919 1.1933 1.1388 | st/cell 1.74 fls/cell 1.048 scan st/cell 1.77
+mazes 1.0 | 7418 7418 7418 95028 | 102.1 102.1 102.1 0.0 | 1.000 1.000 1.000 1.000 | 1.0000 1.0000 1.0000 1.0000 | st/cell 1.00 fls/cell 1.000 scan st/cell 1.00
+mazes 1.5 | 6928 6928 6928 88557 | 95.7 95.7 95.7 0.0 | 1.000 1.000 1.000 1.111 | 1.0000 1.0000 1.0000 1.0091 | st/cell 1.00 fls/cell 1.000 scan st/cell 1.00
+mazes 2.0 | 6458 6458 6458 82873 | 90.0 90.0 90.0 0.0 | 1.000 1.000 1.000 1.164 | 1.0000 1.0000 1.0000 1.0147 | st/cell 1.00 fls/cell 1.000 scan st/cell 1.00
+mazes 3.0 | 5601 5601 5601 73525 | 80.7 80.7 80.7 0.0 | 1.000 1.000 1.000 1.220 | 1.0000 1.0000 1.0000 1.0269 | st/cell 1.00 fls/cell 1.000 scan st/cell 1.00
+mazes 5.0 | 4339 4339 4339 62081 | 69.3 69.3 69.3 0.0 | 1.000 1.000 1.000 1.345 | 1.0000 1.0000 1.0000 1.0545 | st/cell 1.00 fls/cell 1.000 scan st/cell 1.00
+mazes 10.0 | 3156 3156 3156 51717 | 60.1 60.1 60.1 0.0 | 1.000 1.000 1.000 1.430 | 1.0000 1.0000 1.0000 1.0701 | st/cell 1.00 fls/cell 1.000 scan st/cell 1.00
+timing: (162240, 216, 0, 0)
+timing instances {'bg512': 953, 'dao': 1645, 'mazes': 5890, 'sc1': 2014, 'da2': 715, 'rooms': 809, 'random': 1494} 13520
+time dao 1.0 0.73 1.12 0.75 3.16 st/cell 1.53 fls/cell 1.02 wa/cell 4.31 wa/state 2.82 wa/fls 4.21
+time dao 2.0 0.66 0.87 0.67 1.64 st/cell 1.33 fls/cell 1.02 wa/cell 2.50 wa/state 1.88 wa/fls 2.44
+time dao 10.0 0.60 0.75 0.59 1.05 st/cell 1.24 fls/cell 0.98 wa/cell 1.74 wa/state 1.40 wa/fls 1.78
+time da2 1.0 0.65 0.70 0.63 1.39 st/cell 1.08 fls/cell 0.97 wa/cell 2.15 wa/state 1.99 wa/fls 2.22
+time da2 2.0 0.60 0.62 0.61 0.70 st/cell 1.02 fls/cell 1.01 wa/cell 1.16 wa/state 1.13 wa/fls 1.14
+time da2 10.0 0.61 0.62 0.60 0.52 st/cell 1.03 fls/cell 1.00 wa/cell 0.86 wa/state 0.84 wa/fls 0.87
+time bg512 1.0 0.93 0.94 0.93 2.13 st/cell 1.01 fls/cell 0.99 wa/cell 2.28 wa/state 2.26 wa/fls 2.29
+time bg512 2.0 0.92 0.93 0.93 0.53 st/cell 1.02 fls/cell 1.01 wa/cell 0.58 wa/state 0.57 wa/fls 0.57
+time bg512 10.0 0.93 0.93 0.91 0.39 st/cell 1.00 fls/cell 0.98 wa/cell 0.42 wa/state 0.42 wa/fls 0.43
+time sc1 1.0 1.40 2.09 1.45 13.52 st/cell 1.49 fls/cell 1.03 wa/cell 9.64 wa/state 6.48 wa/fls 9.33
+time sc1 2.0 1.01 1.32 1.05 4.82 st/cell 1.31 fls/cell 1.04 wa/cell 4.79 wa/state 3.65 wa/fls 4.61
+time sc1 10.0 0.97 1.17 0.97 3.11 st/cell 1.20 fls/cell 1.00 wa/cell 3.20 wa/state 2.66 wa/fls 3.20
+time rooms 1.0 1.08 1.56 1.26 9.86 st/cell 1.44 fls/cell 1.16 wa/cell 9.09 wa/state 6.31 wa/fls 7.84
+time rooms 2.0 0.62 0.64 0.63 1.76 st/cell 1.03 fls/cell 1.03 wa/cell 2.84 wa/state 2.77 wa/fls 2.77
+time rooms 10.0 0.60 0.62 0.61 1.11 st/cell 1.04 fls/cell 1.01 wa/cell 1.85 wa/state 1.78 wa/fls 1.83
+time random 1.0 3.46 9.09 4.79 5.69 st/cell 2.63 fls/cell 1.38 wa/cell 1.64 wa/state 0.63 wa/fls 1.19
+time random 2.0 1.05 1.79 1.30 1.06 st/cell 1.70 fls/cell 1.24 wa/cell 1.01 wa/state 0.60 wa/fls 0.82
+time random 10.0 0.85 1.27 0.95 0.69 st/cell 1.49 fls/cell 1.11 wa/cell 0.81 wa/state 0.54 wa/fls 0.72
+time mazes 1.0 1.75 2.37 2.25 16.77 st/cell 1.35 fls/cell 1.29 wa/cell 9.57 wa/state 7.07 wa/fls 7.44
+time mazes 2.0 1.58 2.25 2.27 14.40 st/cell 1.43 fls/cell 1.44 wa/cell 9.12 wa/state 6.39 wa/fls 6.33
+time mazes 10.0 0.95 1.33 1.14 10.11 st/cell 1.40 fls/cell 1.20 wa/cell 10.65 wa/state 7.58 wa/fls 8.86
+prio: (591456, 432, 0, 0)
+prio instances {'dao': 4029, 'mazes': 5890, 'random': 3684, 'rooms': 1986, 'sc1': 4984, 'bg512': 2342, 'da2': 1729} 24644 alg/w/pf combos [('jps_cell', 1.5, 'xdp'), ('jps_cell', 1.5, 'xup'), ('jps_cell', 2.0, 'xdp'), ('jps_cell', 2.0, 'xup'), ('jps_cell', 5.0, 'xdp'), ('jps_cell', 5.0, 'xup'), ('jps_cell', 10.0, 'xdp'), ('jps_cell', 10.0, 'xup'), ('jps_state', 1.5, 'xdp'), ('jps_state', 1.5, 'xup'), ('jps_state', 2.0, 'xdp'), ('jps_state', 2.0, 'xup'), ('jps_state', 5.0, 'xdp'), ('jps_state', 5.0, 'xup'), ('jps_state', 10.0, 'xdp'), ('jps_state', 10.0, 'xup'), ('wastar', 1.5, 'xdp'), ('wastar', 1.5, 'xup'), ('wastar', 2.0, 'xdp'), ('wastar', 2.0, 'xup'), ('wastar', 5.0, 'xdp'), ('wastar', 5.0, 'xup'), ('wastar', 10.0, 'xdp'), ('wastar', 10.0, 'xup')]
+prio dao 1.5 jps_cell/xdp 1.0153 jps_cell/xup 1.0163 jps_state/xdp 1.0164 jps_state/xup 1.0170 wastar/xdp 1.0243 wastar/xup 1.0286 | WA*: jps_cell 1.0152 jps_state 1.0160 wastar 1.0283
+prio dao 2.0 jps_cell/xdp 1.0299 jps_cell/xup 1.0393 jps_state/xdp 1.0325 jps_state/xup 1.0435 wastar/xdp 1.0329 wastar/xup 1.0417 | WA*: jps_cell 1.0318 jps_state 1.0336 wastar 1.0392
+prio dao 5.0 jps_cell/xdp 1.0706 jps_cell/xup 1.1126 jps_state/xdp 1.0826 jps_state/xup 1.1341 wastar/xdp 1.0659 wastar/xup 1.0977 | WA*: jps_cell 1.0948 jps_state 1.1094 wastar 1.0862
+prio dao 10.0 jps_cell/xdp 1.0923 jps_cell/xup 1.1390 jps_state/xdp 1.1114 jps_state/xup 1.1750 wastar/xdp 1.0827 wastar/xup 1.1039 | WA*: jps_cell 1.1254 jps_state 1.1528 wastar 1.1034
+prio da2 1.5 jps_cell/xdp 1.0085 jps_cell/xup 1.0083 jps_state/xdp 1.0086 jps_state/xup 1.0085 wastar/xdp 1.0212 wastar/xup 1.0261 | WA*: jps_cell 1.0075 jps_state 1.0076 wastar 1.0248
+prio da2 2.0 jps_cell/xdp 1.0149 jps_cell/xup 1.0193 jps_state/xdp 1.0163 jps_state/xup 1.0211 wastar/xdp 1.0284 wastar/xup 1.0388 | WA*: jps_cell 1.0167 jps_state 1.0185 wastar 1.0349
+prio da2 5.0 jps_cell/xdp 1.0361 jps_cell/xup 1.0598 jps_state/xdp 1.0442 jps_state/xup 1.0717 wastar/xdp 1.0615 wastar/xup 1.0987 | WA*: jps_cell 1.0494 jps_state 1.0603 wastar 1.0840
+prio da2 10.0 jps_cell/xdp 1.0509 jps_cell/xup 1.0753 jps_state/xdp 1.0601 jps_state/xup 1.1023 wastar/xdp 1.0797 wastar/xup 1.1035 | WA*: jps_cell 1.0666 jps_state 1.0834 wastar 1.1033
+prio bg512 1.5 jps_cell/xdp 1.0068 jps_cell/xup 1.0094 jps_state/xdp 1.0070 jps_state/xup 1.0099 wastar/xdp 1.0139 wastar/xup 1.0208 | WA*: jps_cell 1.0076 jps_state 1.0079 wastar 1.0172
+prio bg512 2.0 jps_cell/xdp 1.0142 jps_cell/xup 1.0258 jps_state/xdp 1.0144 jps_state/xup 1.0263 wastar/xdp 1.0197 wastar/xup 1.0294 | WA*: jps_cell 1.0182 jps_state 1.0192 wastar 1.0255
+prio bg512 5.0 jps_cell/xdp 1.0441 jps_cell/xup 1.0855 jps_state/xdp 1.0451 jps_state/xup 1.0906 wastar/xdp 1.0472 wastar/xup 1.0809 | WA*: jps_cell 1.0655 jps_state 1.0689 wastar 1.0685
+prio bg512 10.0 jps_cell/xdp 1.0634 jps_cell/xup 1.1060 jps_state/xdp 1.0678 jps_state/xup 1.1154 wastar/xdp 1.0624 wastar/xup 1.0838 | WA*: jps_cell 1.0919 jps_state 1.0979 wastar 1.0807
+prio sc1 1.5 jps_cell/xdp 1.0177 jps_cell/xup 1.0213 jps_state/xdp 1.0184 jps_state/xup 1.0219 wastar/xdp 1.0294 wastar/xup 1.0363 | WA*: jps_cell 1.0183 jps_state 1.0190 wastar 1.0331
+prio sc1 2.0 jps_cell/xdp 1.0362 jps_cell/xup 1.0537 jps_state/xdp 1.0382 jps_state/xup 1.0575 wastar/xdp 1.0431 wastar/xup 1.0556 | WA*: jps_cell 1.0399 jps_state 1.0422 wastar 1.0507
+prio sc1 5.0 jps_cell/xdp 1.0958 jps_cell/xup 1.1517 jps_state/xdp 1.1080 jps_state/xup 1.1753 wastar/xdp 1.0907 wastar/xup 1.1435 | WA*: jps_cell 1.1291 jps_state 1.1457 wastar 1.1208
+prio sc1 10.0 jps_cell/xdp 1.1314 jps_cell/xup 1.1914 jps_state/xdp 1.1526 jps_state/xup 1.2294 wastar/xdp 1.1188 wastar/xup 1.1549 | WA*: jps_cell 1.1720 jps_state 1.2012 wastar 1.1515
+prio rooms 1.5 jps_cell/xdp 1.0246 jps_cell/xup 1.0271 jps_state/xdp 1.0245 jps_state/xup 1.0270 wastar/xdp 1.0521 wastar/xup 1.0621 | WA*: jps_cell 1.0256 jps_state 1.0255 wastar 1.0579
+prio rooms 2.0 jps_cell/xdp 1.0417 jps_cell/xup 1.0487 jps_state/xdp 1.0414 jps_state/xup 1.0488 wastar/xdp 1.0814 wastar/xup 1.1020 | WA*: jps_cell 1.0438 jps_state 1.0437 wastar 1.0977
+prio rooms 5.0 jps_cell/xdp 1.0784 jps_cell/xup 1.1116 jps_state/xdp 1.0783 jps_state/xup 1.1115 wastar/xdp 1.1751 wastar/xup 1.2578 | WA*: jps_cell 1.1001 jps_state 1.1000 wastar 1.2257
+prio rooms 10.0 jps_cell/xdp 1.0983 jps_cell/xup 1.1338 jps_state/xdp 1.0984 jps_state/xup 1.1331 wastar/xdp 1.2244 wastar/xup 1.2884 | WA*: jps_cell 1.1239 jps_state 1.1239 wastar 1.2814
+prio random 1.5 jps_cell/xdp 1.0423 jps_cell/xup 1.0461 jps_state/xdp 1.0417 jps_state/xup 1.0457 wastar/xdp 1.0392 wastar/xup 1.0415 | WA*: jps_cell 1.0455 jps_state 1.0449 wastar 1.0414
+prio random 2.0 jps_cell/xdp 1.0713 jps_cell/xup 1.0794 jps_state/xdp 1.0707 jps_state/xup 1.0790 wastar/xdp 1.0602 wastar/xup 1.0673 | WA*: jps_cell 1.0744 jps_state 1.0735 wastar 1.0686
+prio random 5.0 jps_cell/xdp 1.1365 jps_cell/xup 1.1672 jps_state/xdp 1.1359 jps_state/xup 1.1664 wastar/xdp 1.1026 wastar/xup 1.1252 | WA*: jps_cell 1.1585 jps_state 1.1580 wastar 1.1180
+prio random 10.0 jps_cell/xdp 1.1642 jps_cell/xup 1.2063 jps_state/xdp 1.1631 jps_state/xup 1.2051 wastar/xdp 1.1212 wastar/xup 1.1462 | WA*: jps_cell 1.1933 jps_state 1.1919 wastar 1.1388
+prio mazes 1.5 jps_cell/xdp 1.0000 jps_cell/xup 1.0000 jps_state/xdp 1.0000 jps_state/xup 1.0000 wastar/xdp 1.0107 wastar/xup 1.0066 | WA*: jps_cell 1.0000 jps_state 1.0000 wastar 1.0091
+prio mazes 2.0 jps_cell/xdp 1.0000 jps_cell/xup 1.0000 jps_state/xdp 1.0000 jps_state/xup 1.0000 wastar/xdp 1.0152 wastar/xup 1.0116 | WA*: jps_cell 1.0000 jps_state 1.0000 wastar 1.0147
+prio mazes 5.0 jps_cell/xdp 1.0000 jps_cell/xup 1.0000 jps_state/xdp 1.0000 jps_state/xup 1.0000 wastar/xdp 1.0516 wastar/xup 1.0566 | WA*: jps_cell 1.0000 jps_state 1.0000 wastar 1.0545
+prio mazes 10.0 jps_cell/xdp 1.0000 jps_cell/xup 1.0000 jps_state/xdp 1.0000 jps_state/xup 1.0000 wastar/xdp 1.0627 wastar/xup 1.0684 | WA*: jps_cell 1.0000 jps_state 1.0000 wastar 1.0701

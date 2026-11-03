@@ -1,0 +1,93 @@
+=== exact examples Sat Oct 31 19:01:53 2026
+pinwheel w=1.0 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 8.000000; decide(v-1e-6) -> complete states 665
+   RESULT pinwheel w=1.0: exact 8.000000000000002  slack/w=8.000000
+pinwheel w=1.1 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 7.858579; decide(v-1e-6) -> complete states 661
+   RESULT pinwheel w=1.1: exact 7.858578643762692  slack/w=7.144162
+pinwheel w=1.2 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 7.717157; decide(v-1e-6) -> complete states 661
+   RESULT pinwheel w=1.2: exact 7.7171572875253815  slack/w=6.430964
+pinwheel w=1.5 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 7.414214; decide(v-1e-6) -> complete states 553
+   RESULT pinwheel w=1.5: exact 7.414213562373096  slack/w=4.942809
+pinwheel w=2.0 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 7.656854; decide(v-1e-6) -> complete states 521
+   RESULT pinwheel w=2.0: exact 7.6568542494923815  slack/w=3.828427
+pinwheel w=3.0 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 9.899495; decide(v-1e-6) -> complete states 335
+   RESULT pinwheel w=3.0: exact 9.899494936611667  slack/w=3.299832
+pinwheel w=5.0 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 15.556349; decide(v-1e-6) -> FAIL states 396
+   bottleneck 15.071068; decide(v-1e-6) -> FAIL states 479
+   bottleneck 14.485281; decide(v-1e-6) -> FAIL states 549
+   bottleneck 14.000000; decide(v-1e-6) -> complete states 367
+   RESULT pinwheel w=5.0: exact 14.0  slack/w=2.800000
+pinwheel w=10.0 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 29.698485; decide(v-1e-6) -> FAIL states 422
+   bottleneck 23.414214; decide(v-1e-6) -> FAIL states 224
+   bottleneck 22.142136; decide(v-1e-6) -> FAIL states 233
+   bottleneck 21.556349; decide(v-1e-6) -> FAIL states 277
+   bottleneck 19.000000; decide(v-1e-6) -> complete states 170
+   RESULT pinwheel w=10.0: exact 18.999999999999996  slack/w=1.900000
+pinwheel w=100.0 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 284.256926; decide(v-1e-6) -> FAIL states 434
+   bottleneck 203.414214; decide(v-1e-6) -> FAIL states 224
+   bottleneck 149.421356; decide(v-1e-6) -> FAIL states 247
+   bottleneck 148.835570; decide(v-1e-6) -> complete states 362
+   RESULT pinwheel w=100.0: exact 148.8355697996826  slack/w=1.488356
+pinwheel w=1000000.0 N=9 s=(1, 1) t=(4, 4) blocked=[(2, 3), (5, 2), (6, 5), (3, 6)]
+   WA* adversary: complete states 4
+   any order: FAIL states 722
+   bottleneck 2828428.538960; decide(v-1e-6) -> FAIL states 434
+   bottleneck 2000003.414214; decide(v-1e-6) -> FAIL states 224
+   bottleneck 1414221.562373; decide(v-1e-6) -> FAIL states 247
+   bottleneck 1414220.976587; decide(v-1e-6) -> complete states 362
+   RESULT pinwheel w=1000000.0: exact 1414220.976586657  slack/w=1.414221
+climb1_ev4 w=1.0 N=9 s=(8, 8) t=(4, 4) blocked=[(1, 4), (2, 3), (3, 6), (5, 2), (6, 5), (6, 6)]
+   WA* adversary: complete states 5
+   any order: FAIL states 1427
+   bottleneck 15.899495; decide(v-1e-6) -> FAIL states 930
+   bottleneck 14.485281; decide(v-1e-6) -> FAIL states 597
+   bottleneck 13.656854; decide(v-1e-6) -> FAIL states 548
+   bottleneck 11.071068; decide(v-1e-6) -> FAIL states 756
+   bottleneck 10.828427; decide(v-1e-6) -> FAIL states 900
+   bottleneck 9.656854; decide(v-1e-6) -> FAIL states 926
+   bottleneck 8.828427; decide(v-1e-6) -> FAIL states 986
+   bottleneck 7.414214; decide(v-1e-6) -> complete states 1259
+   RESULT climb1_ev4 w=1.0: exact 7.414213562373096  slack/w=7.414214
+climb2_ev483 w=2.0 N=9 s=(2, 8) t=(4, 4) blocked=[(0, 0), (0, 2), (0, 6), (0, 8), (1, 0), (2, 0), (2, 1), (2, 3), (2, 6), (3, 1), (3, 6), (3, 7), (4, 7), (5, 0), (5, 2), (6, 5), (6, 6), (6, 8), (7, 2), (7, 3), (8, 1), (8, 7)]
+   WA* adversary: complete states 6
+   any order: FAIL states 28864
+   bottleneck 15.000000; decide(v-1e-6) -> FAIL states 24158
+   bottleneck 12.585786; decide(v-1e-6) -> FAIL states 20483
+   bottleneck 10.585786; decide(v-1e-6) -> FAIL states 11326
+   bottleneck 9.585786; decide(v-1e-6) -> FAIL states 6608
+   bottleneck 9.242641; decide(v-1e-6) -> FAIL states 6294
+   bottleneck 7.485281; decide(v-1e-6) -> FAIL states 3817
+   bottleneck 7.071068; decide(v-1e-6) -> FAIL states 3432
+   bottleneck 7.000000; decide(v-1e-6) -> FAIL states 3432
+   bottleneck 6.171573; decide(v-1e-6) -> FAIL states 1484
+   bottleneck 5.656854; decide(v-1e-6) -> FAIL states 870
+   bottleneck 5.585786; decide(v-1e-6) -> FAIL states 950
+   bottleneck 5.242641; decide(v-1e-6) -> complete states 229
+   RESULT climb2_ev483 w=2.0: exact 5.242640687119286  slack/w=2.621320
+EXACT_EXAMPLES_DONE

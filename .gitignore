@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+cpp/jpswa
+cpp/jpswa_bench
+cpp/jpswa_bench_prio
+ext/
+results/
+results_prio/
+results_time/
+agent_math/sat/prebuilt/

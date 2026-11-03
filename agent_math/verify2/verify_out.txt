@@ -1,0 +1,98 @@
+== totals (full sweep) ==
+rows 1177680, rows with opt=inf (excluded) 432, solvable instance-runs 1177248, viol 0, notfound 0
+distinct solvable instances per (w,alg): [49052]
+solvable instances (w=1, jps_cell): 49052
+sets with unequal n across algs: []
+weights seen: [1.0, 1.5, 2.0, 3.0, 5.0, 10.0]
+
+== expansion ratios (mean state/mean cell, mean FLS/mean cell), scanned ratios ==
+dao     w=1    exp cell     447.6 state/cell 2.100 FLS/cell 1.000   scan state/cell 2.669 FLS/cell 1.000
+dao     w=1.5  exp cell     356.7 state/cell 1.916 FLS/cell 1.109   scan state/cell 2.346 FLS/cell 1.115
+dao     w=2    exp cell     306.8 state/cell 1.874 FLS/cell 1.070   scan state/cell 2.280 FLS/cell 1.073
+dao     w=3    exp cell     270.5 state/cell 1.752 FLS/cell 1.048   scan state/cell 2.079 FLS/cell 1.050
+dao     w=5    exp cell     246.5 state/cell 1.693 FLS/cell 1.042   scan state/cell 1.979 FLS/cell 1.044
+dao     w=10   exp cell     230.0 state/cell 1.658 FLS/cell 1.035   scan state/cell 1.935 FLS/cell 1.036
+da2     w=1    exp cell     142.6 state/cell 1.430 FLS/cell 1.000   scan state/cell 1.617 FLS/cell 1.000
+da2     w=1.5  exp cell     105.7 state/cell 1.316 FLS/cell 1.016   scan state/cell 1.434 FLS/cell 1.017
+da2     w=2    exp cell      92.8 state/cell 1.289 FLS/cell 1.010   scan state/cell 1.393 FLS/cell 1.011
+da2     w=3    exp cell      86.7 state/cell 1.258 FLS/cell 1.008   scan state/cell 1.346 FLS/cell 1.008
+da2     w=5    exp cell      86.2 state/cell 1.227 FLS/cell 1.006   scan state/cell 1.297 FLS/cell 1.007
+da2     w=10   exp cell      86.7 state/cell 1.224 FLS/cell 1.005   scan state/cell 1.293 FLS/cell 1.005
+bg512   w=1    exp cell      41.9 state/cell 1.230 FLS/cell 1.000   scan state/cell 1.168 FLS/cell 1.000
+bg512   w=1.5  exp cell      29.8 state/cell 1.148 FLS/cell 1.013   scan state/cell 1.075 FLS/cell 1.005
+bg512   w=2    exp cell      28.3 state/cell 1.126 FLS/cell 1.009   scan state/cell 1.057 FLS/cell 1.002
+bg512   w=3    exp cell      28.2 state/cell 1.116 FLS/cell 1.007   scan state/cell 1.050 FLS/cell 1.001
+bg512   w=5    exp cell      29.0 state/cell 1.111 FLS/cell 1.005   scan state/cell 1.046 FLS/cell 1.001
+bg512   w=10   exp cell      30.0 state/cell 1.107 FLS/cell 1.004   scan state/cell 1.042 FLS/cell 1.001
+sc1     w=1    exp cell     787.5 state/cell 1.572 FLS/cell 1.000   scan state/cell 1.979 FLS/cell 1.000
+sc1     w=1.5  exp cell     473.5 state/cell 1.475 FLS/cell 1.030   scan state/cell 1.785 FLS/cell 1.031
+sc1     w=2    exp cell     391.7 state/cell 1.430 FLS/cell 1.018   scan state/cell 1.699 FLS/cell 1.018
+sc1     w=3    exp cell     347.9 state/cell 1.365 FLS/cell 1.012   scan state/cell 1.581 FLS/cell 1.011
+sc1     w=5    exp cell     334.8 state/cell 1.330 FLS/cell 1.009   scan state/cell 1.530 FLS/cell 1.007
+sc1     w=10   exp cell     330.0 state/cell 1.306 FLS/cell 1.007   scan state/cell 1.497 FLS/cell 1.005
+rooms   w=1    exp cell    1094.2 state/cell 1.633 FLS/cell 1.000   scan state/cell 1.340 FLS/cell 1.000
+rooms   w=1.5  exp cell      91.9 state/cell 1.077 FLS/cell 1.003   scan state/cell 1.101 FLS/cell 1.009
+rooms   w=2    exp cell      77.8 state/cell 1.047 FLS/cell 1.000   scan state/cell 1.075 FLS/cell 1.002
+rooms   w=3    exp cell      73.2 state/cell 1.032 FLS/cell 1.000   scan state/cell 1.059 FLS/cell 1.001
+rooms   w=5    exp cell      71.9 state/cell 1.026 FLS/cell 1.000   scan state/cell 1.050 FLS/cell 1.001
+rooms   w=10   exp cell      71.8 state/cell 1.023 FLS/cell 1.000   scan state/cell 1.042 FLS/cell 1.001
+random  w=1    exp cell   11033.0 state/cell 2.222 FLS/cell 1.000   scan state/cell 2.362 FLS/cell 1.000
+random  w=1.5  exp cell    2930.0 state/cell 1.878 FLS/cell 1.215   scan state/cell 1.968 FLS/cell 1.202
+random  w=2    exp cell    2184.2 state/cell 1.841 FLS/cell 1.146   scan state/cell 1.911 FLS/cell 1.135
+random  w=3    exp cell    1632.3 state/cell 1.797 FLS/cell 1.097   scan state/cell 1.846 FLS/cell 1.088
+random  w=5    exp cell    1395.5 state/cell 1.762 FLS/cell 1.067   scan state/cell 1.797 FLS/cell 1.060
+random  w=10   exp cell    1297.2 state/cell 1.738 FLS/cell 1.048   scan state/cell 1.765 FLS/cell 1.042
+mazes   w=1    exp cell    7418.3 state/cell 1.000 FLS/cell 1.000   scan state/cell 1.000 FLS/cell 1.000
+mazes   w=1.5  exp cell    6927.8 state/cell 1.000 FLS/cell 1.000   scan state/cell 1.000 FLS/cell 1.000
+mazes   w=2    exp cell    6457.6 state/cell 1.000 FLS/cell 1.000   scan state/cell 1.000 FLS/cell 1.000
+mazes   w=3    exp cell    5600.8 state/cell 1.000 FLS/cell 1.000   scan state/cell 1.000 FLS/cell 1.000
+mazes   w=5    exp cell    4338.9 state/cell 1.000 FLS/cell 1.000   scan state/cell 1.000 FLS/cell 1.000
+mazes   w=10   exp cell    3156.1 state/cell 1.000 FLS/cell 1.000   scan state/cell 1.000 FLS/cell 1.000
+
+== max cost ratios ==
+dao w=10 max 3.436 / 3.405 / 3.436 / 2.761   mean 1.1254 / 1.1528 / 1.1254 / 1.1034
+da2 w=10 max 3.112 / 2.479 / 3.112 / 2.358   mean 1.0666 / 1.0834 / 1.0666 / 1.1033
+bg512 w=10 max 2.663 / 2.878 / 2.663 / 2.364   mean 1.0919 / 1.0979 / 1.0919 / 1.0807
+sc1 w=10 max 3.564 / 3.398 / 3.564 / 3.214   mean 1.1720 / 1.2012 / 1.1719 / 1.1515
+rooms w=10 max 2.939 / 2.939 / 2.939 / 3.569   mean 1.1239 / 1.1239 / 1.1238 / 1.2814
+random w=10 max 2.193 / 2.308 / 2.193 / 2.428   mean 1.1933 / 1.1919 / 1.1933 / 1.1388
+mazes w=10 max 1.000 / 1.000 / 1.000 / 1.430   mean 1.0000 / 1.0000 / 1.0000 / 1.0701
+global max jps_cell (3.564158, ('sc1', 10.0, 'jps_cell'))
+global max jps_state (3.404687, ('dao', 10.0, 'jps_state'))
+global max jps_fls (3.564158, ('sc1', 10.0, 'jps_fls'))
+global max wastar (3.569122, ('rooms', 10.0, 'wastar'))
+
+== mean-ratio spread among the three JPS searches (max/min of means - 1) ==
+dao w=5: spread 1.34%  means [1.0948083138284612, 1.1093971394098552, 1.0947478705926494]
+dao w=10: spread 2.44%  means [1.1254308693423338, 1.1528308587146827, 1.1253657578144534]
+da2 w=5: spread 1.04%  means [1.0494483334307405, 1.0603294979544104, 1.0494483334307414]
+da2 w=10: spread 1.57%  means [1.0666211729982462, 1.0833745520163647, 1.0666008793103443]
+sc1 w=5: spread 1.47%  means [1.1291403532077784, 1.1457043196696552, 1.1291117028905229]
+sc1 w=10: spread 2.50%  means [1.171956537617076, 1.201225388256623, 1.1719200860106793]
+worst spread among JPS means: 2.50%
+mean ratio - 1, per set w=10 (cell): {'dao': 0.1254, 'da2': 0.0666, 'bg512': 0.0919, 'sc1': 0.172, 'rooms': 0.1239, 'random': 0.1933, 'mazes': 0.0}
+
+== timing run ==
+timing rows 162456, inf 216, solvable runs 162240, instances per (w,alg): [13520]
+timing weights: [1.0, 2.0, 10.0]
+dao     w=1   ms cell   0.73 state   1.12 FLS   0.75 WA*   3.16 | state/cell 1.53 FLS/cell 1.02 WA*/cell 4.31 WA*/state 2.82 WA*/FLS 4.21
+dao     w=2   ms cell   0.66 state   0.87 FLS   0.67 WA*   1.64 | state/cell 1.33 FLS/cell 1.02 WA*/cell 2.50 WA*/state 1.88 WA*/FLS 2.44
+dao     w=10  ms cell   0.60 state   0.75 FLS   0.59 WA*   1.05 | state/cell 1.24 FLS/cell 0.98 WA*/cell 1.74 WA*/state 1.40 WA*/FLS 1.78
+da2     w=1   ms cell   0.65 state   0.70 FLS   0.63 WA*   1.39 | state/cell 1.08 FLS/cell 0.97 WA*/cell 2.15 WA*/state 1.99 WA*/FLS 2.22
+da2     w=2   ms cell   0.60 state   0.62 FLS   0.61 WA*   0.70 | state/cell 1.02 FLS/cell 1.01 WA*/cell 1.16 WA*/state 1.13 WA*/FLS 1.14
+da2     w=10  ms cell   0.61 state   0.62 FLS   0.60 WA*   0.52 | state/cell 1.03 FLS/cell 1.00 WA*/cell 0.86 WA*/state 0.84 WA*/FLS 0.87
+bg512   w=1   ms cell   0.93 state   0.94 FLS   0.93 WA*   2.13 | state/cell 1.01 FLS/cell 0.99 WA*/cell 2.28 WA*/state 2.26 WA*/FLS 2.29
+bg512   w=2   ms cell   0.92 state   0.93 FLS   0.93 WA*   0.53 | state/cell 1.02 FLS/cell 1.01 WA*/cell 0.58 WA*/state 0.57 WA*/FLS 0.57
+bg512   w=10  ms cell   0.93 state   0.93 FLS   0.91 WA*   0.39 | state/cell 1.00 FLS/cell 0.98 WA*/cell 0.42 WA*/state 0.42 WA*/FLS 0.43
+sc1     w=1   ms cell   1.40 state   2.09 FLS   1.45 WA*  13.52 | state/cell 1.49 FLS/cell 1.03 WA*/cell 9.64 WA*/state 6.48 WA*/FLS 9.33
+sc1     w=2   ms cell   1.01 state   1.32 FLS   1.05 WA*   4.82 | state/cell 1.31 FLS/cell 1.04 WA*/cell 4.79 WA*/state 3.65 WA*/FLS 4.61
+sc1     w=10  ms cell   0.97 state   1.17 FLS   0.97 WA*   3.11 | state/cell 1.20 FLS/cell 1.00 WA*/cell 3.20 WA*/state 2.66 WA*/FLS 3.20
+rooms   w=1   ms cell   1.08 state   1.56 FLS   1.26 WA*   9.86 | state/cell 1.44 FLS/cell 1.16 WA*/cell 9.09 WA*/state 6.31 WA*/FLS 7.84
+rooms   w=2   ms cell   0.62 state   0.64 FLS   0.63 WA*   1.76 | state/cell 1.03 FLS/cell 1.03 WA*/cell 2.84 WA*/state 2.77 WA*/FLS 2.77
+rooms   w=10  ms cell   0.60 state   0.62 FLS   0.61 WA*   1.11 | state/cell 1.04 FLS/cell 1.01 WA*/cell 1.85 WA*/state 1.78 WA*/FLS 1.83
+random  w=1   ms cell   3.46 state   9.09 FLS   4.79 WA*   5.69 | state/cell 2.63 FLS/cell 1.38 WA*/cell 1.64 WA*/state 0.63 WA*/FLS 1.19
+random  w=2   ms cell   1.05 state   1.79 FLS   1.30 WA*   1.06 | state/cell 1.70 FLS/cell 1.24 WA*/cell 1.01 WA*/state 0.60 WA*/FLS 0.82
+random  w=10  ms cell   0.85 state   1.27 FLS   0.95 WA*   0.69 | state/cell 1.49 FLS/cell 1.11 WA*/cell 0.81 WA*/state 0.54 WA*/FLS 0.72
+mazes   w=1   ms cell   1.75 state   2.37 FLS   2.25 WA*  16.77 | state/cell 1.35 FLS/cell 1.29 WA*/cell 9.57 WA*/state 7.07 WA*/FLS 7.44
+mazes   w=2   ms cell   1.58 state   2.25 FLS   2.27 WA*  14.40 | state/cell 1.43 FLS/cell 1.44 WA*/cell 9.12 WA*/state 6.39 WA*/FLS 6.33
+mazes   w=10  ms cell   0.95 state   1.33 FLS   1.14 WA*  10.11 | state/cell 1.40 FLS/cell 1.20 WA*/cell 10.65 WA*/state 7.58 WA*/FLS 8.86

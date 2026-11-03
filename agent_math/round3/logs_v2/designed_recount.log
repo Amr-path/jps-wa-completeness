@@ -1,0 +1,9 @@
+500 {'complete': 4500} {'LB': 127, 'complete': 330, 'FAIL': 43}
+1000 {'complete': 9000} {'LB': 248, 'complete': 670, 'FAIL': 82}
+1500 {'complete': 13500} {'LB': 366, 'complete': 1010, 'FAIL': 124}
+2000 {'complete': 18000} {'LB': 479, 'complete': 1350, 'FAIL': 171}
+2500 {'complete': 22500} {'LB': 593, 'complete': 1692, 'FAIL': 215}
+3000 {'complete': 27000} {'LB': 713, 'complete': 2019, 'FAIL': 268}
+3500 {'complete': 31500} {'LB': 856, 'complete': 2331, 'FAIL': 313}
+4000 {'complete': 36000} {'LB': 979, 'complete': 2658, 'FAIL': 363}
+DONE 4370 {'complete': 39330} {'LB': 1075, 'complete': 2903, 'FAIL': 392}

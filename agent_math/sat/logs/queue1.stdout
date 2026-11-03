@@ -1,0 +1,32 @@
+=== N=7 w=3/1 wa=True lazy timeout=7200s per t  Sat Oct 24 14:50:40 2026
+   iter 1: +39 wa +1 eq +2 min (total 39/1/2, clauses 283221, 1s)
+   iter 2: +51 wa +1 eq +1 min (total 90/2/3, clauses 320569, 3s)
+   iter 3: +24 wa +3 eq +1 min (total 114/5/4, clauses 351281, 4s)
+   iter 4: +31 wa +4 eq +2 min (total 145/9/6, clauses 374035, 5s)
+t=(3, 3): unsat  build 22s solve 1005s iters 14 {'base_clauses': 237133, 'added_clauses': 308398, 'wa_added': 521, 'eq_added': 30, 'min_added': 28, 'vars': 138302}
+SUMMARY {"(3, 3)": ["unsat", 1005]}
+=== N=7 w=5/1 wa=True lazy timeout=7200s per t  Sat Oct 24 15:07:48 2026
+   iter 1: +38 wa +1 eq +2 min (total 38/1/2, clauses 282875, 1s)
+   iter 2: +67 wa +2 eq +1 min (total 105/3/3, clauses 343074, 6s)
+   iter 3: +41 wa +3 eq +3 min (total 146/6/6, clauses 366724, 7s)
+   iter 4: +27 wa +4 eq +3 min (total 173/10/9, clauses 394349, 7s)
+t=(3, 3): unsat  build 21s solve 918s iters 12 {'base_clauses': 237133, 'added_clauses': 297591, 'wa_added': 519, 'eq_added': 20, 'min_added': 22, 'vars': 135140}
+SUMMARY {"(3, 3)": ["unsat", 918]}
+=== N=7 w=10/1 wa=True lazy timeout=7200s per t  Sat Oct 24 15:23:27 2026
+   iter 1: +39 wa +1 eq +2 min (total 39/1/2, clauses 283777, 1s)
+   iter 2: +60 wa +1 eq +1 min (total 99/2/3, clauses 332169, 3s)
+   iter 3: +21 wa +2 eq +1 min (total 120/4/4, clauses 349959, 5s)
+   iter 4: +23 wa +4 eq +4 min (total 143/8/8, clauses 372801, 5s)
+t=(3, 3): unsat  build 21s solve 939s iters 13 {'base_clauses': 237133, 'added_clauses': 299456, 'wa_added': 484, 'eq_added': 25, 'min_added': 26, 'vars': 135511}
+SUMMARY {"(3, 3)": ["unsat", 939]}
+=== N=7 w=1000/1 wa=True lazy timeout=7200s per t  Sat Oct 24 15:39:27 2026
+   iter 1: +36 wa +1 eq +2 min (total 36/1/2, clauses 284135, 1s)
+   iter 2: +34 wa +5 eq +5 min (total 70/6/7, clauses 331822, 4s)
+   iter 3: +30 wa +1 eq +2 min (total 100/7/9, clauses 350591, 5s)
+   iter 4: +66 wa +3 eq +4 min (total 166/10/13, clauses 400587, 5s)
+t=(3, 3): unsat  build 19s solve 782s iters 11 {'base_clauses': 237133, 'added_clauses': 317179, 'wa_added': 441, 'eq_added': 18, 'min_added': 18, 'vars': 141557}
+SUMMARY {"(3, 3)": ["unsat", 782]}
+=== N=7 w=1/1 wa=True lazy timeout=7200s per t  Sat Oct 24 15:52:48 2026
+t=(2, 2): unsat  build 21s solve 5086s iters 1 {'base_clauses': 240593, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 45276}
+SUMMARY {"(2, 2)": ["unsat", 5086]}
+=== N=7 w=3/2 wa=True lazy timeout=7200s per t  Sat Oct 24 17:17:56 2026

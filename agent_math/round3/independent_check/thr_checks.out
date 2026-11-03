@@ -1,0 +1,5 @@
+climb3 theta=v-1e-6: ('complete', 111)  theta=v: ('FAIL', 135)  theta=0: ('complete', 5)
+climb6 theta=v-1e-6: ('complete', 127)  theta=v: ('FAIL', 93)  theta=0: ('complete', 3)
+pinwheel 1.0 ('complete', 665) ('FAIL', 256)
+pinwheel 2.0 ('complete', 521) ('FAIL', 84)
+climb2_ev483 w=2 theta=v-1e-6: ('complete', 229)  theta=v: ('FAIL', 718)  theta=0: ('complete', 6)

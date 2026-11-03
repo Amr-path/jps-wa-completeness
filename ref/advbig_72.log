@@ -1,0 +1,25 @@
+progress 50 instances, 0 failures, 6 undecided, 79s
+progress 100 instances, 0 failures, 13 undecided, 172s
+progress 150 instances, 0 failures, 16 undecided, 213s
+progress 200 instances, 0 failures, 21 undecided, 285s
+progress 250 instances, 0 failures, 29 undecided, 407s
+progress 300 instances, 0 failures, 29 undecided, 417s
+progress 350 instances, 0 failures, 36 undecided, 495s
+progress 400 instances, 0 failures, 36 undecided, 499s
+progress 450 instances, 0 failures, 39 undecided, 551s
+progress 500 instances, 0 failures, 43 undecided, 626s
+progress 550 instances, 0 failures, 43 undecided, 632s
+progress 600 instances, 0 failures, 46 undecided, 676s
+progress 650 instances, 0 failures, 47 undecided, 702s
+progress 700 instances, 0 failures, 53 undecided, 773s
+progress 750 instances, 0 failures, 59 undecided, 865s
+progress 800 instances, 0 failures, 62 undecided, 901s
+progress 850 instances, 0 failures, 66 undecided, 958s
+progress 900 instances, 0 failures, 74 undecided, 1050s
+progress 950 instances, 0 failures, 74 undecided, 1072s
+progress 1000 instances, 0 failures, 80 undecided, 1151s
+progress 1050 instances, 0 failures, 86 undecided, 1223s
+progress 1100 instances, 0 failures, 91 undecided, 1281s
+progress 1150 instances, 0 failures, 92 undecided, 1341s
+progress 1200 instances, 0 failures, 97 undecided, 1412s
+seed 72: instances 1246, adversarial failures 0, undecided 105, 1525s

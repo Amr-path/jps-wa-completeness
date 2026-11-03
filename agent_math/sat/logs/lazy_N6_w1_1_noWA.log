@@ -1,0 +1,5 @@
+=== N=6 w=1/1 wa=False lazy timeout=3000s per t  Sat Oct 24 07:41:38 2026
+t=(0, 0): unsat  build 10s solve 413s iters 1 {'base_clauses': 128551, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 26172}
+t=(1, 0): unsat  build 10s solve 477s iters 1 {'base_clauses': 132114, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 26012}
+t=(2, 0): unsat  build 10s solve 321s iters 1 {'base_clauses': 130816, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 26041}
+t=(0, 1): unsat  build 10s solve 471s iters 1 {'base_clauses': 131225, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 26010}

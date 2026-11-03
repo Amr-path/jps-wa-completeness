@@ -1,0 +1,149 @@
+[0] N=7 s=(3, 5) t=(3, 3) bl=[(1, 2), (2, 4), (2, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (29+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[1] N=7 s=(2, 4) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4), (6, 3)] ANY-ORDER: adversary=complete sat=unsat (30+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[2] N=7 s=(5, 3) t=(3, 3) bl=[(1, 1), (1, 2), (2, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (15+0.0s, it=2) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +53/7) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +46/5) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +48/2) OK
+[3] N=7 s=(4, 3) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (4, 6), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (15+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[4] N=7 s=(6, 1) t=(3, 3) bl=[(1, 2), (2, 5), (3, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (20+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[5] N=7 s=(1, 6) t=(3, 3) bl=[(1, 2), (1, 5), (2, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=FAIL sat=sat (22+0.2s, it=4) replay_faithful=True OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +41/7) OK
+      slack w=1.0: min_slack=5.4142=(4, 1): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) model faithful=True max_violation=5.4142 OK
+      w=2.0: wa_adversary=complete sat=unsat (0.4s, it=2, +78/0) OK
+      slack w=2.0: min_slack=6.2426=(2, 3): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=2) model faithful=True max_violation=6.2426 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.2s, it=2, +57/2) OK
+[6] N=7 s=(5, 0) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (4, 3), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (21+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[7] N=7 s=(0, 1) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4), (5, 6)] ANY-ORDER: adversary=complete sat=unsat (22+0.1s, it=3) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +58/4) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +39/4) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +39/6) OK
+[8] N=7 s=(0, 2) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4), (6, 4)] ANY-ORDER: adversary=complete sat=unsat (22+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[9] N=7 s=(6, 6) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4), (6, 0)] ANY-ORDER: adversary=FAIL sat=sat (23+0.1s, it=3) replay_faithful=True OK
+      w=1.0: wa_adversary=complete sat=unsat (0.2s, it=3, +84/9) OK
+      slack w=1.0: min_slack=13.4142=(12, 1): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=4) model faithful=True max_violation=13.4142 OK
+      w=2.0: wa_adversary=complete sat=unsat (0.2s, it=2, +57/3) OK
+      slack w=2.0: min_slack=13.0711=(6, 5): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) model faithful=True max_violation=13.0711 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.2s, it=3, +104/9) OK
+[10] N=7 s=(4, 5) t=(3, 3) bl=[(1, 2), (2, 3), (2, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (22+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[11] N=7 s=(6, 3) t=(3, 3) bl=[(1, 2), (2, 5), (3, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (22+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[12] N=7 s=(6, 4) t=(3, 3) bl=[(1, 2), (2, 5), (3, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (23+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[13] N=7 s=(2, 0) t=(3, 3) bl=[(1, 2), (2, 5), (3, 1), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (23+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[14] N=7 s=(3, 1) t=(3, 3) bl=[(0, 1), (1, 2), (2, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (22+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[15] N=7 s=(3, 6) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (21+0.0s, it=2) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +62/2) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +31/4) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +60/2) OK
+[16] N=7 s=(2, 3) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4), (5, 6)] ANY-ORDER: adversary=complete sat=unsat (22+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[17] N=7 s=(3, 4) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (4, 6), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (25+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[18] N=6 s=(2, 3) t=(2, 5) bl=[(0, 0), (0, 1), (1, 5), (3, 0), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (10+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[19] N=6 s=(5, 2) t=(3, 5) bl=[(0, 4), (0, 5), (1, 0), (1, 1), (1, 2), (1, 5), (3, 1), (3, 3), (4, 1), (4, 2)] ANY-ORDER: adversary=complete sat=unsat (10+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[20] N=6 s=(0, 5) t=(3, 5) bl=[(0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 1), (3, 2), (4, 2), (5, 5)] ANY-ORDER: adversary=complete sat=unsat (10+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[21] N=6 s=(4, 2) t=(5, 1) bl=[(0, 1), (0, 4), (3, 0), (4, 0), (4, 3), (5, 0), (5, 2)] ANY-ORDER: adversary=complete sat=unsat (10+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[22] N=6 s=(1, 3) t=(1, 4) bl=[(0, 2), (0, 3), (2, 0), (2, 2), (3, 5), (4, 1), (4, 2), (4, 5), (5, 0)] ANY-ORDER: adversary=complete sat=unsat (10+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[23] N=6 s=(0, 4) t=(0, 0) bl=[(0, 2), (0, 5), (3, 2), (4, 2), (4, 4), (5, 5)] ANY-ORDER: adversary=complete sat=unsat (10+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[24] N=6 s=(0, 5) t=(2, 2) bl=[(0, 1), (0, 2), (1, 2), (3, 3), (3, 4), (3, 5), (4, 0), (4, 1), (5, 5)] ANY-ORDER: adversary=complete sat=unsat (8+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[25] N=6 s=(3, 1) t=(5, 5) bl=[(0, 4), (1, 2), (1, 4), (2, 0), (2, 2), (2, 5), (5, 1)] ANY-ORDER: adversary=complete sat=unsat (7+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[26] N=6 s=(2, 2) t=(5, 1) bl=[(0, 2), (0, 3), (1, 2), (2, 4), (3, 1), (3, 2), (4, 3)] ANY-ORDER: adversary=complete sat=unsat (7+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[27] N=6 s=(3, 4) t=(2, 4) bl=[(0, 2), (0, 4), (0, 5), (1, 1), (2, 3), (4, 3), (4, 4), (5, 0)] ANY-ORDER: adversary=complete sat=unsat (6+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[28] N=6 s=(1, 2) t=(5, 2) bl=[(0, 0), (0, 1), (0, 2), (0, 4), (2, 3), (2, 4), (3, 0), (4, 2), (4, 3), (4, 5), (5, 5)] ANY-ORDER: adversary=complete sat=unsat (7+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[29] N=6 s=(3, 3) t=(2, 2) bl=[(0, 0), (1, 1), (1, 3), (3, 1), (3, 4), (3, 5), (4, 0), (4, 1), (5, 1), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (6+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[30] N=6 s=(3, 2) t=(1, 4) bl=[(0, 2), (2, 0), (2, 4), (3, 1), (3, 3), (3, 4), (4, 2), (4, 3), (5, 4)] ANY-ORDER: adversary=complete sat=unsat (6+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[31] N=6 s=(0, 2) t=(4, 1) bl=[(2, 2), (4, 5), (5, 3)] ANY-ORDER: adversary=complete sat=unsat (6+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[32] N=6 s=(2, 2) t=(4, 1) bl=[(0, 0), (0, 2), (1, 0), (2, 0), (2, 3), (2, 4), (2, 5), (3, 1), (3, 3), (3, 4), (4, 5), (5, 4), (5, 5)] ANY-ORDER: adversary=complete sat=unsat (6+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[33] N=6 s=(4, 0) t=(4, 4) bl=[(0, 0), (0, 1), (1, 3), (1, 4), (3, 1), (4, 3), (5, 1), (5, 5)] ANY-ORDER: adversary=complete sat=unsat (7+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[34] N=6 s=(2, 3) t=(1, 3) bl=[(0, 0), (0, 2), (1, 4), (4, 4), (4, 5)] ANY-ORDER: adversary=complete sat=unsat (6+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+[35] N=6 s=(5, 1) t=(4, 3) bl=[(0, 2), (1, 1), (2, 5), (3, 0), (4, 5), (5, 5)] ANY-ORDER: adversary=complete sat=unsat (6+0.0s, it=1) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+      w=5.0: wa_adversary=complete sat=unsat (0.0s, it=1, +0/0) OK
+AGREE 148/148; order-dependent instances: 2/36; slack tests: 4

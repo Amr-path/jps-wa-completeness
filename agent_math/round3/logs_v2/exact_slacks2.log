@@ -1,0 +1,4 @@
+pinwheel w 1.0 min_slack: FAIL 8.000000000000002 0s
+pinwheel w 1.0 wa_adversary: complete 0s
+pinwheel w 2.0 min_slack: FAIL 7.6568542494923815 0s
+pinwheel w 2.0 wa_adversary: complete 0s

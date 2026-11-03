@@ -1,0 +1,10 @@
+=== N=6 w=1/1 wa=False lazy timeout=3000s per t  Sat Oct 24 09:13:57 2026
+t=(2, 1): unsat  build 10s solve 96s iters 1 {'base_clauses': 126205, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 25704}
+SUMMARY {"(2, 1)": ["unsat", 96]}
+=== N=6 w=1/1 wa=False lazy timeout=3000s per t  Sat Oct 24 09:15:42 2026
+t=(0, 2): unsat  build 9s solve 454s iters 1 {'base_clauses': 127836, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 26024}
+SUMMARY {"(0, 2)": ["unsat", 454]}
+=== N=6 w=1/1 wa=False lazy timeout=3000s per t  Sat Oct 24 09:23:26 2026
+t=(1, 2): unsat  build 12s solve 147s iters 1 {'base_clauses': 126205, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 25704}
+SUMMARY {"(1, 2)": ["unsat", 147]}
+QUEUE_C_DONE

@@ -1,0 +1,51 @@
+=== exact slacks, limit 20000000, Sat Oct 31 10:21:52 2026
+pinwheel w=1.0 N=9 s=(1, 1) t=(4, 4) |blocked|=4
+   WA* adversary (theta=0): complete  states 4  0s
+   decide(theta=0.000000) -> complete  states 4  0s
+   decide(theta=0.500000) -> complete  states 4  0s
+   decide(theta=1.000000) -> complete  states 5  0s
+   decide(theta=1.500000) -> complete  states 8  0s
+   decide(theta=2.000000) -> complete  states 12  0s
+   decide(theta=2.500000) -> complete  states 12  0s
+   decide(theta=3.000000) -> complete  states 16  0s
+   decide(theta=3.500000) -> complete  states 19  0s
+   decide(theta=4.000000) -> complete  states 33  0s
+   decide(theta=4.500000) -> complete  states 33  0s
+   decide(theta=5.000000) -> complete  states 51  0s
+   decide(theta=5.500000) -> complete  states 359  0s
+   decide(theta=6.000000) -> complete  states 429  0s
+   decide(theta=6.500000) -> complete  states 465  0s
+   decide(theta=7.000000) -> complete  states 582  0s
+   decide(theta=7.500000) -> complete  states 659  0s
+   decide(theta=8.000000) -> FAIL  states 204  0s
+   failing order of bottleneck 8.000000 (replayed), length 19
+   decide(theta=7.999999) -> complete  states 665  0s
+   RESULT pinwheel w=1.0: exact 8.000000000000002
+pinwheel w=2.0 N=9 s=(1, 1) t=(4, 4) |blocked|=4
+   WA* adversary (theta=0): complete  states 4  0s
+   decide(theta=0.000000) -> complete  states 4  0s
+   decide(theta=0.500000) -> complete  states 4  0s
+   decide(theta=1.000000) -> complete  states 5  0s
+   decide(theta=1.500000) -> complete  states 5  0s
+   decide(theta=2.000000) -> complete  states 9  0s
+   decide(theta=2.500000) -> complete  states 17  0s
+   decide(theta=3.000000) -> complete  states 17  0s
+   decide(theta=3.500000) -> complete  states 17  0s
+   decide(theta=4.000000) -> complete  states 17  0s
+   decide(theta=4.500000) -> complete  states 17  0s
+   decide(theta=5.000000) -> complete  states 19  0s
+   decide(theta=5.500000) -> complete  states 85  0s
+   decide(theta=6.000000) -> complete  states 122  0s
+   decide(theta=6.500000) -> complete  states 128  0s
+   decide(theta=7.000000) -> complete  states 219  0s
+   decide(theta=7.500000) -> complete  states 521  0s
+   decide(theta=8.000000) -> FAIL  states 172  0s
+   failing order of bottleneck 7.656854 (replayed), length 19
+   decide(theta=7.656853) -> complete  states 521  0s
+   RESULT pinwheel w=2.0: exact 7.6568542494923815
+climb1 w=1.0 N=9 s=(6, 1) t=(2, 8) |blocked|=22
+   WA* adversary (theta=0): complete  states 89  0s
+   decide(theta=2.000000) -> complete  states 175705  7s
+   decide(theta=2.500000) -> complete  states 178477  7s
+   decide(theta=3.000000) -> complete  states 619746  26s
+   decide(theta=3.500000) -> complete  states 1565590  70s

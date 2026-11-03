@@ -1,0 +1,46 @@
+=== N=7 w=1/1 wa=False lazy timeout=7200s per t  Sun Oct 25 12:18:43 2026
+   iter 1: +0 wa +3 eq +3 min (total 0/3/3, clauses 225449, 1s)
+   iter 2: +0 wa +2 eq +3 min (total 0/5/6, clauses 234474, 2s)
+   iter 3: +0 wa +3 eq +3 min (total 0/8/9, clauses 243680, 3s)
+   iter 4: +0 wa +1 eq +1 min (total 0/9/10, clauses 247936, 3s)
+t=(3, 3): sat  build 18s solve 7s iters 12 {'base_clauses': 214468, 'added_clauses': 58480, 'wa_added': 0, 'eq_added': 21, 'min_added': 20, 'vars': 58542}
+!!!!! SAT model: {"N": "7", "blocked": [[1, 2], [1, 5], [2, 0], [2, 5], [3, 6], [4, 1], [5, 4], [6, 0], [6, 6]], "s": "(3, 0)", "t": "(3, 3)", "order": "[(3, 0), (5, 0), (5, 1), (6, 2), (6, 5), (5, 5), (4, 5), (4, 3), (6, 3), (5, 2), (3, 2), (3, 1), (1, 1), (2, 1), (0, 1), (0, 3), (1, 4), (3, 4), (2, 2), (2, 3), (0, 6)]", "g": "{(3, 0): (0, 0), (5, 0): (2, 0), (5, 1): (3, 0), (6, 2): (3, 1), (6, 5): (6, 1), (5, 5): (7, 1), (4, 5): (8, 1), (4, 3): (10, 1), (6, 3): (12, 1), (5, 2): (4, 0), (3, 2): (6, 0), (3, 1): (1, 0), (1, 1): (3, 0), (2, 1): (6, 1), (0, 1): (4, 0), (0, 3): (6, 0), (1, 4): (6, 1), (3, 4): (8, 1), (2, 2): (1, 1), (2, 3): (2, 1), (0, 6): (9, 0)}", "parent": "{(5, 0): (3, 0), (3, 1): (3, 0), (5, 1): (5, 0), (0, 3): (0, 1), (0, 1): (1, 1), (1, 1): (3, 1), (2, 2): (3, 1), (5, 2): (5, 1), (6, 2): (5, 1), (2, 3): (2, 2), (2, 1): (3, 2), (3, 2): (5, 2), (6, 5): (6, 2), (0, 6): (0, 3), (1, 4): (0, 3), (6, 3): (4, 3), (3, 4): (1, 4), (4, 3): (4, 5), (4, 5): (5, 5), (5, 5): (6, 5)}"}
+   replay: faithful=True wa_consistent=False log=['(5, 0) popped with f=5.8284 > fmin=3.0000', '(5, 1) popped with f=5.8284 > fmin=3.0000', '(6, 2) popped with f=7.8284 > fmin=3.0000', '(6, 5) popped with f=11.2426 > fmin=3.0000', '(5, 5) popped with f=11.2426 > fmin=3.0000']
+   reference CanonicalJPS replays (cost, inf = failure): {'replay': 3.0, 'hig': 3.0, 'log': 3.0, 'fifo': 3.0, 'lifo': 3.0, 'rand': 3.0, 'greedy': 3.0}
+SUMMARY {"(3, 3)": ["sat", 7]}
+=== N=7 w=1/1 wa=True lazy timeout=10800s per t  Sun Oct 25 12:19:07 2026
+   iter 1: +27 wa +3 eq +3 min (total 27/3/3, clauses 264000, 1s)
+   iter 2: +34 wa +2 eq +3 min (total 61/5/6, clauses 288076, 3s)
+   iter 3: +26 wa +1 eq +1 min (total 87/6/7, clauses 308802, 3s)
+   iter 4: +43 wa +1 eq +1 min (total 130/7/8, clauses 342525, 4s)
+t=(3, 3): unsat  build 18s solve 1028s iters 20 {'base_clauses': 214468, 'added_clauses': 358347, 'wa_added': 660, 'eq_added': 35, 'min_added': 34, 'vars': 149338}
+SUMMARY {"(3, 3)": ["unsat", 1028]}
+=== N=7 w=3/2 wa=True lazy timeout=10800s per t  Sun Oct 25 12:36:33 2026
+   iter 1: +27 wa +3 eq +3 min (total 27/3/3, clauses 258871, 1s)
+   iter 2: +63 wa +4 eq +4 min (total 90/7/7, clauses 301396, 2s)
+   iter 3: +62 wa +1 eq +1 min (total 152/8/8, clauses 338933, 3s)
+   iter 4: +50 wa +3 eq +3 min (total 202/11/11, clauses 367914, 4s)
+t=(3, 3): unsat  build 15s solve 903s iters 18 {'base_clauses': 214468, 'added_clauses': 383880, 'wa_added': 729, 'eq_added': 31, 'min_added': 34, 'vars': 157377}
+SUMMARY {"(3, 3)": ["unsat", 903]}
+=== N=7 w=2/1 wa=True lazy timeout=10800s per t  Sun Oct 25 12:51:52 2026
+   iter 1: +28 wa +3 eq +3 min (total 28/3/3, clauses 264006, 1s)
+   iter 2: +28 wa +4 eq +4 min (total 56/7/7, clauses 290750, 3s)
+   iter 3: +24 wa +4 eq +2 min (total 80/11/9, clauses 319048, 4s)
+   iter 4: +46 wa +3 eq +2 min (total 126/14/11, clauses 345397, 4s)
+   iter 20: +23 wa +2 eq +1 min (total 720/40/33, clauses 585401, 85s)
+t=(3, 3): unsat  build 16s solve 854s iters 22 {'base_clauses': 214468, 'added_clauses': 376965, 'wa_added': 736, 'eq_added': 41, 'min_added': 34, 'vars': 155324}
+SUMMARY {"(3, 3)": ["unsat", 854]}
+=== N=7 w=3/1 wa=True lazy timeout=10800s per t  Sun Oct 25 13:06:22 2026
+   iter 1: +28 wa +3 eq +3 min (total 28/3/3, clauses 264251, 1s)
+   iter 2: +27 wa +2 eq +1 min (total 55/5/4, clauses 293958, 3s)
+   iter 3: +23 wa +1 eq +3 min (total 78/6/7, clauses 315540, 4s)
+   iter 4: +90 wa +5 eq +5 min (total 168/11/12, clauses 357626, 5s)
+   iter 20: +16 wa +0 eq +0 min (total 773/39/42, clauses 628510, 257s)
+t=(3, 3): unsat  build 17s solve 964s iters 21 {'base_clauses': 214468, 'added_clauses': 414042, 'wa_added': 773, 'eq_added': 39, 'min_added': 42, 'vars': 166548}
+SUMMARY {"(3, 3)": ["unsat", 964]}
+=== N=7 w=5/1 wa=True lazy timeout=10800s per t  Sun Oct 25 13:22:43 2026
+   iter 1: +28 wa +3 eq +3 min (total 28/3/3, clauses 264146, 1s)
+   iter 2: +57 wa +2 eq +2 min (total 85/5/5, clauses 313447, 3s)
+   iter 3: +44 wa +0 eq +0 min (total 129/5/5, clauses 342518, 4s)
+   iter 4: +26 wa +2 eq +3 min (total 155/7/8, clauses 357956, 5s)
+   iter 20: +57 wa +1 eq +1 min (total 716/38/43, clauses 609262, 47s)

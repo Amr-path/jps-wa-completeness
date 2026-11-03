@@ -1,0 +1,8 @@
+6 instances (2 order-dependent) out of 31 tried
+[0] N=7 s=(5, 3) t=(2, 1) nb=11 any=complete noWA=unsat noeqg=unsat/can_fail=False w1/1:unsat/complete w3/2:unsat/complete w2/1:unsat/complete w5/1:unsat/complete
+[1] N=7 s=(6, 2) t=(3, 3) nb=4 any=FAIL noWA=sat noeqg=sat/can_fail=True w1/1:unsat/complete w3/2:unsat/complete w2/1:unsat/complete w5/1:unsat/complete
+[2] N=7 s=(5, 0) t=(3, 3) nb=7 any=complete noWA=unsat noeqg=unsat/can_fail=True w1/1:unsat/complete w3/2:unsat/complete w2/1:unsat/complete w5/1:unsat/complete
+[3] N=7 s=(0, 3) t=(3, 3) nb=15 any=complete noWA=unsat noeqg=unsat/can_fail=False w1/1:unsat/complete w3/2:unsat/complete w2/1:unsat/complete w5/1:unsat/complete
+[4] N=7 s=(4, 0) t=(3, 3) nb=5 any=FAIL noWA=sat noeqg=sat/can_fail=True w1/1:unsat/complete w3/2:unsat/complete w2/1:unsat/complete w5/1:unsat/complete
+[5] N=7 s=(3, 2) t=(3, 3) nb=5 any=complete noWA=unsat noeqg=unsat/can_fail=False w1/1:unsat/complete w3/2:unsat/complete w2/1:unsat/complete w5/1:unsat/complete
+DISAGREEMENTS 0

@@ -1,0 +1,3 @@
+=== N=7 w=1/1 wa=False lazy timeout=7200s per t  Sat Oct 24 08:31:06 2026
+   iter 1: +0 wa +1 eq +2 min (total 0/1/2, clauses 250665, 8s)
+   iter 2: +0 wa +2 eq +2 min (total 0/3/4, clauses 255597, 36s)

@@ -1,0 +1,17 @@
+progress 25 grids, 50 instances, 0 failures, 0 undecided, max states 134920, 22s
+progress 50 grids, 100 instances, 0 failures, 0 undecided, max states 134920, 22s
+progress 75 grids, 150 instances, 0 failures, 0 undecided, max states 134920, 25s
+progress 100 grids, 200 instances, 0 failures, 0 undecided, max states 134920, 26s
+progress 125 grids, 250 instances, 0 failures, 0 undecided, max states 134920, 41s
+progress 150 grids, 300 instances, 0 failures, 2 undecided, max states 400001, 126s
+progress 175 grids, 350 instances, 0 failures, 2 undecided, max states 400001, 128s
+progress 200 grids, 400 instances, 0 failures, 2 undecided, max states 400001, 129s
+progress 225 grids, 450 instances, 0 failures, 2 undecided, max states 400001, 160s
+progress 250 grids, 500 instances, 0 failures, 2 undecided, max states 400001, 163s
+progress 275 grids, 550 instances, 0 failures, 2 undecided, max states 400001, 168s
+progress 300 grids, 600 instances, 0 failures, 3 undecided, max states 400001, 232s
+progress 325 grids, 650 instances, 0 failures, 3 undecided, max states 400001, 276s
+progress 350 grids, 700 instances, 0 failures, 3 undecided, max states 400001, 308s
+progress 375 grids, 750 instances, 0 failures, 3 undecided, max states 400001, 318s
+progress 400 grids, 800 instances, 0 failures, 3 undecided, max states 400001, 368s
+seed 102 random: instances 800, failures 0, undecided 3

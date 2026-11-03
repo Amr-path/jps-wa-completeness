@@ -1,0 +1,154 @@
+=== exact slacks, limit 20000000, Sat Oct 31 10:24:28 2026
+pinwheel w=1.0 N=9 s=(1, 1) t=(4, 4) |blocked|=4
+   WA* adversary (theta=0): complete  states 4  0s
+   decide(theta=0.000000) -> complete  states 4  0s
+   decide(theta=0.500000) -> complete  states 4  0s
+   decide(theta=1.000000) -> complete  states 5  0s
+   decide(theta=1.500000) -> complete  states 8  0s
+   decide(theta=2.000000) -> complete  states 12  0s
+   decide(theta=2.500000) -> complete  states 12  0s
+   decide(theta=3.000000) -> complete  states 16  0s
+   decide(theta=3.500000) -> complete  states 19  0s
+   decide(theta=4.000000) -> complete  states 33  0s
+   decide(theta=4.500000) -> complete  states 33  0s
+   decide(theta=5.000000) -> complete  states 51  0s
+   decide(theta=5.500000) -> complete  states 359  0s
+   decide(theta=6.000000) -> complete  states 429  0s
+   decide(theta=6.500000) -> complete  states 465  0s
+   decide(theta=7.000000) -> complete  states 582  0s
+   decide(theta=7.500000) -> complete  states 659  0s
+   decide(theta=8.000000) -> FAIL  states 204  0s
+   failing order of bottleneck 8.000000 (replayed), length 19
+   decide(theta=7.999999) -> complete  states 665  0s
+   RESULT pinwheel w=1.0: exact 8.000000000000002
+pinwheel w=2.0 N=9 s=(1, 1) t=(4, 4) |blocked|=4
+   WA* adversary (theta=0): complete  states 4  0s
+   decide(theta=0.000000) -> complete  states 4  0s
+   decide(theta=0.500000) -> complete  states 4  0s
+   decide(theta=1.000000) -> complete  states 5  0s
+   decide(theta=1.500000) -> complete  states 5  0s
+   decide(theta=2.000000) -> complete  states 9  0s
+   decide(theta=2.500000) -> complete  states 17  0s
+   decide(theta=3.000000) -> complete  states 17  0s
+   decide(theta=3.500000) -> complete  states 17  0s
+   decide(theta=4.000000) -> complete  states 17  0s
+   decide(theta=4.500000) -> complete  states 17  0s
+   decide(theta=5.000000) -> complete  states 19  0s
+   decide(theta=5.500000) -> complete  states 85  0s
+   decide(theta=6.000000) -> complete  states 122  0s
+   decide(theta=6.500000) -> complete  states 128  0s
+   decide(theta=7.000000) -> complete  states 219  0s
+   decide(theta=7.500000) -> complete  states 521  0s
+   decide(theta=8.000000) -> FAIL  states 172  0s
+   failing order of bottleneck 7.656854 (replayed), length 19
+   decide(theta=7.656853) -> complete  states 521  0s
+   RESULT pinwheel w=2.0: exact 7.6568542494923815
+climb1 w=1.0 N=9 s=(6, 1) t=(2, 8) |blocked|=22
+   WA* adversary (theta=0): complete  states 89  0s
+   decide(theta=2.000000) -> complete  states 175705  7s
+   decide(theta=2.500000) -> complete  states 178477  7s
+   decide(theta=3.000000) -> complete  states 619746  26s
+   decide(theta=3.500000) -> complete  states 1565590  69s
+   decide(theta=4.000000) -> complete  states 3133461  152s
+   decide(theta=4.500000) -> complete  states 3293899  163s
+   decide(theta=5.000000) -> complete  states 5307920  275s
+   decide(theta=5.500000) -> complete  states 6428540  315s
+   decide(theta=6.000000) -> complete  states 7097774  338s
+   decide(theta=6.500000) -> complete  states 7152778  347s
+   decide(theta=7.000000) -> complete  states 8222841  402s
+   decide(theta=7.500000) -> complete  states 9635521  474s
+   decide(theta=8.000000) -> complete  states 10661632  535s
+   decide(theta=8.500000) -> complete  states 10827402  531s
+   decide(theta=9.000000) -> complete  states 11820394  580s
+   decide(theta=9.500000) -> complete  states 13429362  653s
+   decide(theta=10.000000) -> complete  states 14734673  754s
+   decide(theta=10.500000) -> complete  states 14787360  735s
+   decide(theta=11.000000) -> complete  states 15804389  822s
+   decide(theta=11.500000) -> complete  states 16459462  824s
+   decide(theta=12.000000) -> complete  states 16968192  874s
+   decide(theta=12.500000) -> complete  states 17036022  834s
+=== RESUME after container restart, limit 25000000, Sat Oct 31 13:18:51 2026
+climb1 w=1.0 N=9 s=(6, 1) t=(2, 8) |blocked|=22  (resumed at theta=13.0)
+   decide(theta=13.000000) -> complete  states 17576462  1033s
+   decide(theta=13.500000) -> complete  states 17889467  1086s
+   decide(theta=14.000000) -> complete  states 18197899  1106s
+   decide(theta=14.500000) -> complete  states 18258277  1047s
+   decide(theta=15.000000) -> complete  states 18521915  1072s
+   decide(theta=15.500000) -> complete  states 18744787  1094s
+   [resume_slacks.py killed during theta=16.0 at Sat Oct 31 15:19:23 +08 2026; restarting with an any-order test first]
+=== RESUME after container restart, limit 25000000, Sat Oct 31 15:19:23 2026
+climb1 w=1.0 N=9 s=(6, 1) t=(2, 8) |blocked|=22  (resumed at theta=16.0)
+   decide(theta=1e9, any order) -> complete  states 19249373  1181s
+   RESULT climb1 w=1.0: no_failing_order_at_all 15.5
+climb7 w=1.5 N=9 s=(1, 1) t=(7, 7) |blocked|=12
+   WA* adversary (theta=0): complete  states 13  0s
+   decide(theta=3.000000) -> complete  states 173375  7s
+   decide(theta=3.500000) -> complete  states 390214  19s
+   decide(theta=4.000000) -> complete  states 1050894  50s
+   decide(theta=4.500000) -> complete  states 1435211  77s
+   decide(theta=5.000000) -> complete  states 2007056  111s
+   decide(theta=5.500000) -> complete  states 2418643  141s
+   decide(theta=6.000000) -> complete  states 3857294  226s
+   decide(theta=6.500000) -> complete  states 4564203  267s
+   decide(theta=7.000000) -> complete  states 5144690  310s
+   decide(theta=7.500000) -> complete  states 6399910  399s
+   decide(theta=8.000000) -> complete  states 7144102  442s
+   decide(theta=8.500000) -> complete  states 8299112  510s
+   decide(theta=9.000000) -> complete  states 12156921  802s
+   decide(theta=9.500000) -> complete  states 14582875  964s
+   decide(theta=10.000000) -> complete  states 16480549  1201s
+   decide(theta=10.500000) -> complete  states 17207573  1124s
+   [resume_slacks.py killed during climb7 theta=11.0 at Sat Oct 31 17:40:06 +08 2026; switching to resume_slacks2.py]
+=== RESUME 2 (any-order first, then tighten down), limit 25000000, Sat Oct 31 17:40:06 2026
+climb7 w=1.5 N=9 s=(1, 1) t=(7, 7) |blocked|=12
+   decide(theta=1e9, any order) -> limit  states 25000001  1902s
+   RESULT climb7 w=1.5: limit_anyorder
+climb2 w=2.0 N=9 s=(1, 7) t=(6, 0) |blocked|=22
+   WA* adversary (theta=0): complete  states 8  0s
+   decide(theta=1e9, any order) -> complete  states 9675123  626s
+   RESULT climb2 w=2.0: no_failing_order_at_all
+climb4 w=3.0 N=8 s=(2, 5) t=(6, 1) |blocked|=13
+   WA* adversary (theta=0): complete  states 5  0s
+   decide(theta=1e9, any order) -> complete  states 2719065  176s
+   RESULT climb4 w=3.0: no_failing_order_at_all
+climb3 w=1000000.0 N=9 s=(8, 8) t=(4, 4) |blocked|=20
+   WA* adversary (theta=0): complete  states 5  0s
+   decide(theta=1e9, any order) -> FAIL  states 5163  0s
+   failing order of bottleneck 3414222.390800 (replayed), length 27
+   decide(theta=3414222.390799) -> FAIL  states 4252  0s
+   failing order of bottleneck 3242622.858692 (replayed), length 27
+   decide(theta=3242622.858691) -> FAIL  states 1179  0s
+   failing order of bottleneck 3242618.858692 (replayed), length 27
+   decide(theta=3242618.858691) -> FAIL  states 1270  0s
+   failing order of bottleneck 2414223.390800 (replayed), length 27
+   decide(theta=2414223.390799) -> FAIL  states 572  0s
+   failing order of bottleneck 2242623.858692 (replayed), length 27
+   decide(theta=2242623.858691) -> FAIL  states 407  0s
+   failing order of bottleneck 1999997.757359 (replayed), length 27
+   decide(theta=1999997.757358) -> FAIL  states 183  0s
+   failing order of bottleneck 1828434.124746 (replayed), length 27
+   decide(theta=1828434.124745) -> FAIL  states 375  0s
+   failing order of bottleneck 1828428.710533 (replayed), length 27
+   decide(theta=1828428.710532) -> FAIL  states 155  0s
+   failing order of bottleneck 1828417.538960 (replayed), length 24
+   decide(theta=1828417.538959) -> FAIL  states 95  0s
+   failing order of bottleneck 1414204.976587 (replayed), length 24
+   decide(theta=1414204.976586) -> FAIL  states 82  0s
+   failing order of bottleneck 1414200.148160 (replayed), length 24
+   decide(theta=1414200.148159) -> FAIL  states 75  0s
+   failing order of bottleneck 1000010.414214 (replayed), length 24
+   decide(theta=1000010.414213) -> FAIL  states 72  0s
+   failing order of bottleneck 1000006.171573 (replayed), length 24
+   decide(theta=1000006.171572) -> complete  states 111  0s
+   RESULT climb3 w=1000000.0: exact 1000006.1715728752
+climb6 w=1000000.0 N=8 s=(0, 2) t=(4, 3) |blocked|=14
+   WA* adversary (theta=0): complete  states 3  0s
+   decide(theta=1e9, any order) -> FAIL  states 483  0s
+   failing order of bottleneck 2242645.272906 (replayed), length 18
+   decide(theta=2242645.272905) -> FAIL  states 196  0s
+   failing order of bottleneck 1414232.148160 (replayed), length 18
+   decide(theta=1414232.148159) -> FAIL  states 127  0s
+   failing order of bottleneck 1414226.976587 (replayed), length 18
+   decide(theta=1414226.976586) -> complete  states 127  0s
+   RESULT climb6 w=1000000.0: exact 1414226.9765866576
+EXACT_SLACKS3_DONE

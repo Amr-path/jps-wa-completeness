@@ -1,0 +1,17 @@
+progress 25 grids, 50 instances, 0 failures, 9 undecided, max states 400001, 451s
+progress 50 grids, 100 instances, 0 failures, 13 undecided, max states 400001, 554s
+progress 75 grids, 150 instances, 0 failures, 19 undecided, max states 400001, 772s
+progress 100 grids, 200 instances, 0 failures, 23 undecided, max states 400001, 934s
+progress 125 grids, 250 instances, 0 failures, 30 undecided, max states 400001, 1102s
+progress 150 grids, 300 instances, 0 failures, 38 undecided, max states 400001, 1292s
+progress 175 grids, 350 instances, 0 failures, 46 undecided, max states 400001, 1482s
+progress 200 grids, 400 instances, 0 failures, 53 undecided, max states 400001, 1665s
+progress 225 grids, 450 instances, 0 failures, 59 undecided, max states 400001, 1853s
+progress 250 grids, 500 instances, 0 failures, 68 undecided, max states 400001, 2132s
+progress 275 grids, 550 instances, 0 failures, 72 undecided, max states 400001, 2292s
+progress 300 grids, 600 instances, 0 failures, 81 undecided, max states 400001, 2510s
+progress 325 grids, 650 instances, 0 failures, 95 undecided, max states 400001, 2867s
+progress 350 grids, 700 instances, 0 failures, 107 undecided, max states 400001, 3136s
+progress 375 grids, 750 instances, 0 failures, 114 undecided, max states 400001, 3321s
+progress 400 grids, 800 instances, 0 failures, 121 undecided, max states 400001, 3488s
+seed 101 layered: instances 800, failures 0, undecided 121

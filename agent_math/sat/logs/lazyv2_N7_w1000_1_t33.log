@@ -1,0 +1,4 @@
+=== N=7 w=1000/1 wa=True lazy timeout=14400s per t  Sat Oct 31 02:25:27 2026
+=== N=7 w=1000/1 wa=True lazy timeout=14400s per t  Sat Oct 31 10:28:18 2026
+t=(3, 3): unsat  build 14s solve 677s iters 20 {'base_clauses': 214468, 'added_clauses': 453481, 'wa_added': 642, 'eq_added': 40, 'min_added': 38, 'vars': 179353}
+SUMMARY {"(3, 3)": ["unsat", 677]}

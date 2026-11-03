@@ -1,0 +1,7 @@
+=== N=7 w=1/1 wa=True lazy timeout=7200s per t  Sat Oct 24 08:17:48 2026
+   iter 1: +40 wa +1 eq +2 min (total 40/1/2, clauses 285411, 0s)
+   iter 2: +34 wa +2 eq +3 min (total 74/3/5, clauses 315978, 2s)
+   iter 3: +29 wa +4 eq +3 min (total 103/7/8, clauses 343208, 3s)
+   iter 4: +50 wa +1 eq +1 min (total 153/8/9, clauses 367832, 4s)
+t=(3, 3): unsat  build 16s solve 709s iters 11 {'base_clauses': 237133, 'added_clauses': 251045, 'wa_added': 400, 'eq_added': 16, 'min_added': 16, 'vars': 120664}
+SUMMARY {"(3, 3)": ["unsat", 709]}

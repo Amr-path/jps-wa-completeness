@@ -1,0 +1,114 @@
+16 order-dependent instances out of 112 tried
+[0] N=9 s=(3, 0) t=(4, 4) bl=[(0, 7), (2, 3), (3, 6), (5, 2), (5, 8), (6, 5)] ANY-ORDER sat=sat it=2 +4eq/3min faithful=True (80+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.2s, it=3, +79wa/8eq/6min) OK
+      slack w=1.0: min_slack=15.6569=(10, 4): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=3) faithful=True max_violation=15.6569 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.3s, it=3, +79wa/8eq/6min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=3, +98wa/8eq/6min) OK
+      slack w=2.0: min_slack=14.4853=(6, 6): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.4853 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.2s, it=3, +103wa/7eq/5min) OK
+[1] N=7 s=(2, 0) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4)] ANY-ORDER sat=sat it=3 +8eq/7min faithful=True (18+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +30wa/6eq/5min) OK
+      slack w=1.0: min_slack=16.2426=(12, 3): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=3) faithful=True max_violation=16.2426 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +32wa/6eq/5min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +30wa/6eq/5min) OK
+      slack w=2.0: min_slack=16.0711=(9, 5): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=16.0711 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +32wa/6eq/5min) OK
+[2] N=8 s=(2, 0) t=(4, 4) bl=[(2, 3), (3, 6), (5, 2), (6, 5)] ANY-ORDER sat=sat it=2 +3eq/3min faithful=True (40+0.0s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +44wa/3eq/3min) OK
+      slack w=1.0: min_slack=14.8284=(12, 2): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.8284 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +43wa/3eq/3min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +42wa/3eq/3min) OK
+      slack w=2.0: min_slack=13.2426=(9, 3): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=13.2426 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +41wa/3eq/3min) OK
+[3] N=7 s=(5, 6) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4), (6, 0)] ANY-ORDER sat=sat it=2 +8eq/6min faithful=True (19+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.2s, it=3, +85wa/10eq/8min) OK
+      slack w=1.0: min_slack=14.8284=(12, 2): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.8284 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=3, +78wa/10eq/8min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.2s, it=3, +78wa/10eq/8min) OK
+      slack w=2.0: min_slack=14.2426=(10, 3): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.2426 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=3, +73wa/10eq/8min) OK
+[4] N=9 s=(6, 7) t=(4, 4) bl=[(2, 2), (2, 3), (3, 6), (5, 2), (6, 5)] ANY-ORDER sat=sat it=3 +5eq/5min faithful=True (81+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +42wa/3eq/3min) OK
+      slack w=1.0: min_slack=15.4142=(14, 1): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=15.4142 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.2s, it=2, +42wa/3eq/3min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +42wa/3eq/3min) OK
+      slack w=2.0: min_slack=14.8284=(12, 2): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.8284 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +44wa/3eq/3min) OK
+[5] N=8 s=(4, 7) t=(3, 4) bl=[(0, 6), (1, 3), (2, 6), (4, 2), (5, 5)] ANY-ORDER sat=sat it=2 +3eq/3min faithful=True (39+0.0s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.2s, it=3, +110wa/8eq/6min) OK
+      slack w=1.0: min_slack=16.2426=(12, 3): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=3) faithful=True max_violation=16.2426 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=3, +114wa/8eq/6min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.2s, it=3, +113wa/8eq/6min) OK
+      slack w=2.0: min_slack=16.0711=(9, 5): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=3) faithful=True max_violation=16.0711 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.2s, it=3, +116wa/8eq/6min) OK
+[6] N=9 s=(6, 8) t=(5, 4) bl=[(3, 3), (4, 6), (6, 2), (7, 5), (8, 2)] ANY-ORDER sat=sat it=2 +4eq/4min faithful=True (77+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +19wa/4eq/4min) OK
+      slack w=1.0: min_slack=15.6569=(10, 4): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=3) faithful=True max_violation=15.6569 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +19wa/4eq/4min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +20wa/4eq/4min) OK
+      slack w=2.0: min_slack=14.4853=(6, 6): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.4853 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +20wa/4eq/4min) OK
+[7] N=8 s=(3, 0) t=(4, 4) bl=[(2, 3), (3, 6), (5, 2), (6, 5)] ANY-ORDER sat=sat it=3 +5eq/6min faithful=True (44+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +21wa/3eq/4min) OK
+      slack w=1.0: min_slack=15.6569=(10, 4): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=15.6569 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +21wa/3eq/4min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +22wa/3eq/4min) OK
+      slack w=2.0: min_slack=14.4853=(6, 6): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.4853 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +22wa/3eq/4min) OK
+[8] N=8 s=(0, 5) t=(4, 4) bl=[(2, 3), (3, 6), (5, 2), (6, 5)] ANY-ORDER sat=sat it=2 +8eq/8min faithful=True (41+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +38wa/8eq/8min) OK
+      slack w=1.0: min_slack=15.6569=(10, 4): sat@sigma=sat (it=5) sat@sigma-1=unsat (it=3) faithful=True max_violation=15.6569 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +39wa/8eq/8min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +37wa/8eq/8min) OK
+      slack w=2.0: min_slack=14.4853=(6, 6): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.4853 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +31wa/8eq/8min) OK
+[9] N=7 s=(0, 4) t=(3, 3) bl=[(0, 6), (1, 2), (2, 5), (4, 1), (5, 0), (5, 4)] ANY-ORDER sat=sat it=2 +5eq/5min faithful=True (19+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +27wa/5eq/5min) OK
+      slack w=1.0: min_slack=10.8284=(8, 2): sat@sigma=sat (it=2) sat@sigma-1=unsat (it=3) faithful=True max_violation=10.8284 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +27wa/5eq/5min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +28wa/5eq/5min) OK
+      slack w=2.0: min_slack=10.6569=(5, 4): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=10.6569 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +28wa/5eq/5min) OK
+[10] N=9 s=(6, 7) t=(5, 4) bl=[(3, 3), (4, 6), (6, 2), (7, 5)] ANY-ORDER sat=sat it=2 +5eq/5min faithful=True (83+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +30wa/5eq/5min) OK
+      slack w=1.0: min_slack=16.2426=(12, 3): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=16.2426 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +31wa/5eq/5min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +27wa/5eq/5min) OK
+      slack w=2.0: min_slack=16.0711=(9, 5): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=16.0711 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +27wa/5eq/5min) OK
+[11] N=8 s=(0, 6) t=(4, 4) bl=[(2, 3), (3, 6), (5, 2), (6, 5)] ANY-ORDER sat=sat it=3 +12eq/10min faithful=True (38+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.2s, it=2, +33wa/6eq/5min) OK
+      slack w=1.0: min_slack=9.4142=(8, 1): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=4) faithful=True max_violation=9.4142 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.2s, it=2, +35wa/6eq/5min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.2s, it=2, +34wa/6eq/5min) OK
+      slack w=2.0: min_slack=7.8284=(5, 2): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=7.8284 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.2s, it=2, +36wa/6eq/5min) OK
+[12] N=7 s=(1, 1) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4)] ANY-ORDER sat=sat it=2 +5eq/3min faithful=True (18+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +25wa/5eq/3min) OK
+      slack w=1.0: min_slack=14.8284=(12, 2): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.8284 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +26wa/5eq/3min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +26wa/5eq/3min) OK
+      slack w=2.0: min_slack=14.2426=(10, 3): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.2426 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +29wa/5eq/3min) OK
+[13] N=7 s=(1, 1) t=(3, 3) bl=[(1, 2), (2, 5), (3, 0), (4, 1), (5, 4)] ANY-ORDER sat=sat it=2 +5eq/3min faithful=True (17+0.0s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +18wa/5eq/3min) OK
+      slack w=1.0: min_slack=14.8284=(12, 2): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.8284 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +19wa/5eq/3min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +19wa/5eq/3min) OK
+      slack w=2.0: min_slack=14.2426=(10, 3): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.2426 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +21wa/5eq/3min) OK
+[14] N=7 s=(6, 2) t=(3, 3) bl=[(1, 2), (2, 5), (4, 1), (5, 4)] ANY-ORDER sat=sat it=5 +10eq/9min faithful=True (18+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.2s, it=3, +95wa/10eq/8min) OK
+      slack w=1.0: min_slack=10.8284=(8, 2): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=10.8284 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=3, +103wa/10eq/8min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.2s, it=3, +114wa/10eq/8min) OK
+      slack w=2.0: min_slack=10.6569=(5, 4): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=10.6569 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.2s, it=3, +94wa/9eq/7min) OK
+[15] N=8 s=(3, 0) t=(4, 4) bl=[(0, 7), (2, 3), (3, 6), (5, 2), (6, 5)] ANY-ORDER sat=sat it=3 +5eq/6min faithful=True (38+0.1s) OK
+      w=1.0: wa_adversary=complete sat=unsat (0.1s, it=2, +21wa/3eq/4min) OK
+      slack w=1.0: min_slack=15.6569=(10, 4): sat@sigma=sat (it=3) sat@sigma-1=unsat (it=3) faithful=True max_violation=15.6569 OK
+      w=1.5: wa_adversary=complete sat=unsat (0.1s, it=2, +21wa/3eq/4min) OK
+      w=2.0: wa_adversary=complete sat=unsat (0.1s, it=2, +22wa/3eq/4min) OK
+      slack w=2.0: min_slack=14.4853=(6, 6): sat@sigma=sat (it=4) sat@sigma-1=unsat (it=3) faithful=True max_violation=14.4853 OK
+      w=5.0: wa_adversary=complete sat=unsat (0.1s, it=2, +22wa/3eq/4min) OK
+AGREE 112/112
