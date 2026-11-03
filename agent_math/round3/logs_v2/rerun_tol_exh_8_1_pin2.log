@@ -1,0 +1,12 @@
+266s 1000 wa1e6={'complete': 1000} unrestricted={'LB': 743, 'complete': 245, 'FAIL': 12}
+594s 2000 wa1e6={'complete': 2000} unrestricted={'LB': 1610, 'complete': 378, 'FAIL': 12}
+931s 3000 wa1e6={'complete': 3000} unrestricted={'LB': 2469, 'complete': 519, 'FAIL': 12}
+1255s 4000 wa1e6={'complete': 4000} unrestricted={'LB': 3338, 'complete': 650, 'FAIL': 12}
+1539s 5000 wa1e6={'complete': 5000} unrestricted={'LB': 4141, 'complete': 844, 'FAIL': 15}
+1783s 6000 wa1e6={'complete': 6000} unrestricted={'LB': 4886, 'complete': 1091, 'FAIL': 23}
+2050s 7000 wa1e6={'complete': 7000} unrestricted={'LB': 5680, 'complete': 1289, 'FAIL': 31}
+2297s 8000 wa1e6={'complete': 8000} unrestricted={'LB': 6388, 'complete': 1566, 'FAIL': 46}
+2610s 9000 wa1e6={'complete': 9000} unrestricted={'LB': 7225, 'complete': 1727, 'FAIL': 48}
+2935s 10000 wa1e6={'complete': 10000} unrestricted={'LB': 8083, 'complete': 1867, 'FAIL': 50}
+3200s 11000 wa1e6={'complete': 11000} unrestricted={'LB': 8875, 'complete': 2066, 'FAIL': 59}
+DONE exh_8_1_pin2 instances=11880 wa1e6={'complete': 11880} unrestricted={'LB': 9542, 'complete': 2261, 'FAIL': 77} 3434s

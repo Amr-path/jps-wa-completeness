@@ -1,0 +1,5 @@
+531s 1000 wa1e6={'complete': 1000} unrestricted={'LB': 248, 'complete': 670, 'FAIL': 82}
+1094s 2000 wa1e6={'complete': 2000} unrestricted={'LB': 479, 'complete': 1350, 'FAIL': 171}
+1647s 3000 wa1e6={'complete': 3000} unrestricted={'LB': 713, 'complete': 2019, 'FAIL': 268}
+2225s 4000 wa1e6={'complete': 4000} unrestricted={'LB': 979, 'complete': 2658, 'FAIL': 363}
+DONE designed instances=4370 wa1e6={'complete': 4370} unrestricted={'LB': 1075, 'complete': 2903, 'FAIL': 392} 2425s

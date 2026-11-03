@@ -1,0 +1,6 @@
+171s 1000 wa1e6={'complete': 1000} unrestricted={'FAIL': 454, 'LB': 341, 'complete': 205}
+306s 2000 wa1e6={'complete': 2000} unrestricted={'FAIL': 872, 'LB': 603, 'complete': 525}
+410s 3000 wa1e6={'complete': 3000} unrestricted={'FAIL': 1072, 'LB': 779, 'complete': 1149}
+532s 4000 wa1e6={'complete': 4000} unrestricted={'FAIL': 1393, 'LB': 1014, 'complete': 1593}
+699s 5000 wa1e6={'complete': 5000} unrestricted={'FAIL': 1762, 'LB': 1361, 'complete': 1877}
+DONE exh_9_1 instances=5700 wa1e6={'complete': 5700} unrestricted={'FAIL': 2144, 'LB': 1516, 'complete': 2040} 784s

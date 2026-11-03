@@ -1,0 +1,2 @@
+63s 1000 wa1e6={'complete': 1000} unrestricted={'FAIL': 252, 'complete': 682, 'LB': 66}
+DONE exh_7_1 instances=1892 wa1e6={'complete': 1892} unrestricted={'FAIL': 504, 'complete': 1264, 'LB': 124} 119s
