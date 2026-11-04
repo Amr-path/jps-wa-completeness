@@ -68,6 +68,7 @@ them under `ext/grid_benchmarks/maps/<collection>/` and `ext/grid_benchmarks/sce
 | Sec. 7, SAT result for maps within 7x7 | `agent_math/sat/run_lazy.py` (CNFs: `cnf_build.py` / `prebuild.py`) | `agent_math/sat/logs/lazyv2_N7_*.log`, `logs/mac_run/` |
 | Lemma 7.1 and invariant tests | `agent_math/round4/lemmaA_test.py`, `lemmaB_test.py` | `agent_math/round4/logs/` |
 | Sec. 8, Table 3 | `cpp/run_bench.sh`, `cpp/run_prio.sh`, `cpp/run_timing.sh`, `cpp/make_tables.py` | `results.tar.xz` |
+| Sec. 8, Correctness: cell-closing under the other three tie rules | `cpp/run_tie.sh`, `cpp/check_tie.py` | `results_tie.tar.xz` |
 
 Ten of the sixteen SAT runs at w=1 were executed on a second machine with a different z3 version; their CNFs were
 built beforehand with the z3 version of the other runs (`agent_math/sat/prebuild.py`, option `JPS_PREBUILT` of
