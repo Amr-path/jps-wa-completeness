@@ -1,0 +1,7 @@
+=== N=7 w=1 t=(3,0) Thu Nov  5 13:43:47 2026
+lazy: unsat iters 1 solve 1740s stats {'base_clauses': 232129, 'added_clauses': 0, 'wa_added': 0, 'eq_added': 0, 'min_added': 0, 'vars': 43903} recorded 0 clauses
+final formula: 232129 base + 0 added clauses, sha256 9a0436876d69f8f920dcb16afb850671022e0bf1cde31fc0779919103e9ac44e
+cadical exit 20 (20 = UNSAT) in 16033s, proof 3.21 GB
+drat-trim ['s VERIFIED'] in 2527s
+drat-trim tail:  | s VERIFIED |  | c verification time: 2526.624 seconds
+RESULT {"t": [3, 0], "lazy": "unsat", "cadical": 20, "drat_trim": ["s VERIFIED"], "sha256": "9a0436876d69f8f920dcb16afb850671022e0bf1cde31fc0779919103e9ac44e", "total_s": 20301}

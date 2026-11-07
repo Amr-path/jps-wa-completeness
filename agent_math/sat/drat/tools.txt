@@ -1,0 +1,2 @@
+cadical 3.0.1 commit c6073042; drat-trim commit 2e3b2dc
+cadical 3.0.1 commit c6073042; drat-trim commit 2e3b2dc
