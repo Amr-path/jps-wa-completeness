@@ -6,10 +6,10 @@ Also prints ratios to cell-closing (of means, from unrounded data), per-instance
 the spread of the repetitions, and the number of instances per collection."""
 import csv, glob, re, statistics as st, sys
 from collections import defaultdict
-sys.path.insert(0, '/home/claude/jps-wa/cpp')
+sys.path.insert(0, '/path/to/jps-wa/cpp')
 from analyze_exact import exact_ok, fmt
 
-ROOT = '/home/claude/jps-wa'
+ROOT = '/path/to/jps-wa'
 COLLS = ['dao', 'da2', 'bg512', 'sc1', 'rooms', 'random', 'mazes']
 ALGS = ['jps_cell', 'jps_state', 'jps_fls', 'wastar']; WS = ['1', '2', '10']
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 # XDP / XUP priority functions (Chen & Sturtevant 2019): cell-closing, state-closing and grid best-first search.
-B=/home/claude/jps-wa/ext/grid_benchmarks; OUT=/home/claude/jps-wa/results_prio; BIN=/home/claude/jps-wa/cpp/jpswa_bench_prio
+B=/path/to/jps-wa/ext/grid_benchmarks; OUT=/path/to/jps-wa/results_prio; BIN=/path/to/jps-wa/cpp/jpswa_bench_prio
 for c in dao da2 bg512 sc1 rooms random mazes; do
   ev=40; [ "$c" = mazes ] && ev=100
   for sc in $B/scenarios/$c/*.scen; do

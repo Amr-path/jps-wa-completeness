@@ -8,7 +8,7 @@ expansions per cell.
 import csv, glob, os, sys, math
 from collections import defaultdict
 
-R = '/home/claude/jps-wa/results'
+R = '/path/to/jps-wa/results'
 agg = defaultdict(lambda: dict(n=0, found=0, viol=0, ratio=0.0, maxratio=0.0, exp=0, gen=0, scan=0, us=0, maxexp=0, unsolv=0))
 for fn in glob.glob(os.path.join(R, '*.csv')):
     coll = os.path.basename(fn).split('.')[0]

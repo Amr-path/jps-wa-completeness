@@ -1,6 +1,6 @@
 #!/bin/bash
 # Runs the four algorithms over MovingAI collections; every 20th scenario instance; tie = HIG.
-B=/home/claude/jps-wa/ext/grid_benchmarks; OUT=/home/claude/jps-wa/results; BIN=/home/claude/jps-wa/cpp/jpswa_bench
+B=/path/to/jps-wa/ext/grid_benchmarks; OUT=/path/to/jps-wa/results; BIN=/path/to/jps-wa/cpp/jpswa_bench
 for c in dao da2 bg512 sc1 rooms random mazes; do
   ev=20; [ "$c" = mazes ] && ev=50
   for sc in $B/scenarios/$c/*.scen; do

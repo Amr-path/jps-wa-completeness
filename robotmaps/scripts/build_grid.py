@@ -6,7 +6,7 @@ traversed before it as visited-free. occupancy = hits/visits. Beams with no retu
 p>0.65, 254 free p<0.196, 205 unknown/unvisited) + OUTSTEM.yaml.
 """
 import sys, math
-sys.path.insert(0, '/home/claude/jps-wa/robotmaps/scripts')
+sys.path.insert(0, '/path/to/jps-wa/robotmaps/scripts')
 import numpy as np
 from parse_log import parse
 log, out = sys.argv[1], sys.argv[2]

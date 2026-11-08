@@ -5,7 +5,7 @@ import csv, glob, re, sys
 from collections import defaultdict
 from fractions import Fraction
 
-ROOT = '/home/claude/jps-wa'
+ROOT = '/path/to/jps-wa'
 
 
 def within(row, w):

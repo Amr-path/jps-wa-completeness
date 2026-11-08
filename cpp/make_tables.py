@@ -7,8 +7,8 @@ import csv, glob, os
 from collections import defaultdict
 
 import sys
-R = '/home/claude/jps-wa/results'
-RT = '/home/claude/jps-wa/results_time'   # dedicated timing run (every 100th instance, w in {1,2,10})
+R = '/path/to/jps-wa/results'
+RT = '/path/to/jps-wa/results_time'   # dedicated timing run (every 100th instance, w in {1,2,10})
 A = defaultdict(lambda: dict(n=0, exp=0, scan=0, us=0, maxr=0.0, viol=0, nf=0, sumr=0.0))
 for fn in glob.glob(os.path.join(R, '*.csv')):
     coll = os.path.basename(fn).split('.')[0]

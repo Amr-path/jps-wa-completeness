@@ -1,6 +1,6 @@
 #!/bin/bash
 # Cell-closing canonical JPS under the three other tie rules (log, fifo, lifo), same sample as run_bench.sh.
-B=/home/claude/jps-wa/ext/grid_benchmarks; OUT=/home/claude/jps-wa/results_tie; BIN=/home/claude/jps-wa/cpp/jpswa_bench
+B=/path/to/jps-wa/ext/grid_benchmarks; OUT=/path/to/jps-wa/results_tie; BIN=/path/to/jps-wa/cpp/jpswa_bench
 mkdir -p $OUT
 run_c() { c=$1; ev=20; [ "$c" = mazes ] && ev=50
   for sc in $B/scenarios/$c/*.scen; do

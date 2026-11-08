@@ -1,7 +1,7 @@
 #!/bin/bash
 # Robot occupancy grids (robotmaps/): four real SLAM environments and 100 HouseExpo layouts, 200 instances each,
 # the four algorithms with exact arithmetic, six weights. Resumable.
-R=/home/claude/jps-wa/robotmaps/maps; BIN=/home/claude/jps-wa/cpp/jpswa_exact; OUT=/home/claude/jps-wa/results_robot; mkdir -p $OUT
+R=/path/to/jps-wa/robotmaps/maps; BIN=/path/to/jps-wa/cpp/jpswa_exact; OUT=/path/to/jps-wa/results_robot; mkdir -p $OUT
 for set in real houseexpo; do
   for sc in $R/$set/*.map.scen; do
     name=$(basename $sc .map.scen); [ "$name" = wean5300 ] && continue; map=$R/$set/$name.map

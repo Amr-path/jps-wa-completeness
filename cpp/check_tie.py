@@ -1,6 +1,6 @@
 """Summarise results_tie/: cell-closing under tie rules log/fifo/lifo; counts runs, not-found, bound violations."""
 import csv,glob,collections,re
-R='/home/claude/jps-wa/results_tie'; n=collections.Counter(); nf=collections.Counter(); bv=collections.Counter(); inst=set(); mr=0
+R='/path/to/jps-wa/results_tie'; n=collections.Counter(); nf=collections.Counter(); bv=collections.Counter(); inst=set(); mr=0
 for fn in glob.glob(R+'/*.csv'):
     m=re.search(r'/([^/.]+)\..*\.jps_cell\.(\w+)\.w([0-9.]+)\.csv$',fn); col,tie,w=m.groups()
     for r in csv.DictReader(open(fn)):

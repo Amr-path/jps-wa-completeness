@@ -5,7 +5,7 @@ usage: python3 analyze_exact.py [main|tie|time|all]"""
 import csv, glob, os, re, sys, statistics as st
 from collections import defaultdict
 
-ROOT = '/home/claude/jps-wa'
+ROOT = '/path/to/jps-wa'
 COLLS = ['dao', 'da2', 'bg512', 'sc1', 'rooms', 'random', 'mazes']
 ALGS = ['jps_cell', 'jps_state', 'jps_fls', 'wastar']
 WS = ['1', '1.5', '2', '3', '5', '10']
