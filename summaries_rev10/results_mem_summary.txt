@@ -1,0 +1,32 @@
+runs 162240 not found 0 bound violations 0 {}
+dao 1 n 1645 | records cell 454 state/cell 2.08 fls/cell 1.00 | peak open cell 33 state/cell 1.74 fls/cell 2.30 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+dao 2 n 1645 | records cell 325 state/cell 1.82 fls/cell 1.01 | peak open cell 32 state/cell 1.37 fls/cell 8.60 | reopen exp/cell 1.490 reexp 135.7 meanratio 1.0284 (cell 1.0313) maxratio 1.469
+dao 10 n 1645 | records cell 254 state/cell 1.60 fls/cell 1.01 | peak open cell 32 state/cell 1.18 fls/cell 8.59 | reopen exp/cell 1.829 reexp 168.8 meanratio 1.1192 (cell 1.1244) maxratio 2.626
+da2 1 n 715 | records cell 152 state/cell 1.43 fls/cell 1.00 | peak open cell 17 state/cell 1.39 fls/cell 2.46 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+da2 2 n 715 | records cell 105 state/cell 1.27 fls/cell 1.00 | peak open cell 17 state/cell 1.17 fls/cell 5.56 | reopen exp/cell 1.051 reexp 3.7 meanratio 1.0149 (cell 1.0160) maxratio 1.354
+da2 10 n 715 | records cell 99 state/cell 1.20 fls/cell 1.00 | peak open cell 17 state/cell 1.09 fls/cell 5.95 | reopen exp/cell 1.033 reexp 2.6 meanratio 1.0635 (cell 1.0642) maxratio 1.994
+bg512 1 n 953 | records cell 49 state/cell 1.20 fls/cell 1.00 | peak open cell 11 state/cell 1.17 fls/cell 2.66 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+bg512 2 n 953 | records cell 36 state/cell 1.10 fls/cell 1.00 | peak open cell 9 state/cell 1.05 fls/cell 4.08 | reopen exp/cell 1.039 reexp 0.9 meanratio 1.0158 (cell 1.0160) maxratio 1.329
+bg512 10 n 953 | records cell 38 state/cell 1.09 fls/cell 1.00 | peak open cell 10 state/cell 1.03 fls/cell 4.55 | reopen exp/cell 1.059 reexp 1.2 meanratio 1.0914 (cell 1.0906) maxratio 2.490
+sc1 1 n 2014 | records cell 810 state/cell 1.56 fls/cell 1.00 | peak open cell 69 state/cell 1.40 fls/cell 2.32 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+sc1 2 n 2014 | records cell 434 state/cell 1.40 fls/cell 1.01 | peak open cell 52 state/cell 1.19 fls/cell 8.00 | reopen exp/cell 1.178 reexp 62.8 meanratio 1.0380 (cell 1.0400) maxratio 1.511
+sc1 10 n 2014 | records cell 368 state/cell 1.27 fls/cell 1.00 | peak open cell 45 state/cell 1.10 fls/cell 8.72 | reopen exp/cell 1.267 reexp 74.3 meanratio 1.1656 (cell 1.1681) maxratio 2.561
+rooms 1 n 809 | records cell 1175 state/cell 1.66 fls/cell 1.00 | peak open cell 94 state/cell 1.92 fls/cell 2.04 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+rooms 2 n 809 | records cell 112 state/cell 1.05 fls/cell 1.00 | peak open cell 36 state/cell 1.03 fls/cell 3.91 | reopen exp/cell 1.025 reexp 2.1 meanratio 1.0416 (cell 1.0433) maxratio 1.283
+rooms 10 n 809 | records cell 106 state/cell 1.02 fls/cell 1.00 | peak open cell 36 state/cell 1.01 fls/cell 3.81 | reopen exp/cell 1.007 reexp 0.3 meanratio 1.1166 (cell 1.1175) maxratio 1.989
+random 1 n 1494 | records cell 11106 state/cell 2.28 fls/cell 1.00 | peak open cell 515 state/cell 2.86 fls/cell 2.02 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+random 2 n 1494 | records cell 2338 state/cell 1.79 fls/cell 1.00 | peak open cell 196 state/cell 1.17 fls/cell 10.95 | reopen exp/cell 1.852 reexp 1877.8 meanratio 1.0664 (cell 1.0716) maxratio 1.254
+random 10 n 1494 | records cell 1489 state/cell 1.65 fls/cell 1.00 | peak open cell 201 state/cell 1.06 fls/cell 8.51 | reopen exp/cell 5.331 reexp 5578.4 meanratio 1.1752 (cell 1.1894) maxratio 1.870
+mazes 1 n 5890 | records cell 7389 state/cell 1.00 fls/cell 1.00 | peak open cell 31 state/cell 1.00 fls/cell 2.09 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+mazes 2 n 5890 | records cell 6441 state/cell 1.00 fls/cell 1.00 | peak open cell 30 state/cell 1.00 fls/cell 40.28 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+mazes 10 n 5890 | records cell 3163 state/cell 1.00 fls/cell 1.00 | peak open cell 31 state/cell 1.00 fls/cell 75.34 | reopen exp/cell 1.000 reexp 0.0 meanratio 1.0000 (cell 1.0000) maxratio 1.000
+range jps_fls expanded 1.000 1.158
+range jps_fls peak_open 2.021 75.335
+range jps_fls records 1.000 1.015
+range jps_reopen expanded 1.000 5.331
+range jps_reopen peak_open 1.000 1.134
+range jps_reopen records 0.981 1.073
+range jps_state expanded 1.000 2.234
+range jps_state peak_open 1.000 2.861
+range jps_state records 1.000 2.284
+max ratio per alg {'jps_cell': '2.747', 'jps_state': '2.769', 'jps_fls': '2.747', 'jps_reopen': '2.626'}

@@ -22,7 +22,8 @@
 
 // jpswa_var.cpp: jpswa_exact.cpp extended with two JPS variants of Carlson, Harabor & Stuckey (SoCS 2024):
 // BJPS (bounded jumps, --bound b) and JPScc (corner cutting allowed: a diagonal move needs only a free target cell).
-// Weights are rationals P/Q; f is stored as Q g + P h. Modes: jps_cell, jps_state, wastar (grid, same move rules).
+// Weights are rationals P/Q; f is stored as Q g + P h. Modes: jps_cell, jps_state, jps_fls (focal list search of Carlson, Harabor & Stuckey,
+// open list by f = g + h, focal list by f_w, both stored times Q), wastar (grid, same move rules).
 // (based on) jpswa_exact.cpp: the algorithms of jpswa_bench.cpp (priority g + w h only) with exact arithmetic.
 // A cost is a + b*sqrt(2) with integers a, b; f is stored doubled, 2f = 2g + (2w) h, with 2w an integer.
 // Comparisons are exact; "improves" means strictly smaller; equal f is broken by the tie rule on exact g.
@@ -159,7 +160,7 @@ struct JPSWA {
         Heap open; open.tie = tie; Heap focal; focal.tie = tie; long seq = 0;
         auto hval = [&](int x, int y) { return oct(x - gx, y - gy); };
         touchCell(s); gcell[s] = Z; if (mode == 1) { touchState((size_t)s * 9 + 8); gst[(size_t)s * 9 + 8] = Z; }
-        open.push({(mode == 2 ? fval(Z, hval(sx, sy), 2) : fval(Z, hval(sx, sy), W2)), Z, seq++, s, 8}); st.generated++;
+        open.push({(mode == 2 ? fval(Z, hval(sx, sy), QQ) : fval(Z, hval(sx, sy), W2)), Z, seq++, s, 8}); st.generated++;
         if (mode == 2) { inOpen[s] = 1; focal.push({fval(Z, hval(sx, sy), W2), Z, seq++, s, 8}); }
         while (!open.empty()) {
             Entry e;
@@ -167,9 +168,9 @@ struct JPSWA {
                 while (!focal.empty()) { const Entry& f = focal.top(); if (!eq(f.g, gcell[f.node]) || closedCell[f.node]) focal.pop(); else break; }
                 while (!open.empty()) { const Entry& o = open.top(); if (!eq(o.g, gcell[o.node]) || !inOpen[o.node] || expOptimal[o.node]) open.pop(); else break; }
                 if (open.empty()) break;
-                // focal top f_w <= w * (open top f):  2 f_w  vs  w * 2f  -> compare 2*(2f_w) with (2w)*(2f)
+                // focal top f_w <= w * (open top f): stored a = Q f_w, b = Q f; condition Q a <= P b
                 bool takeF = false;
-                if (!focal.empty()) { C a = focal.top().f, b = open.top().f; takeF = cmp({2 * a.a, 2 * a.b}, {W2 * b.a, W2 * b.b}) <= 0; }
+                if (!focal.empty()) { C a = focal.top().f, b = open.top().f; takeF = cmp({QQ * a.a, QQ * a.b}, {W2 * b.a, W2 * b.b}) <= 0; }
                 if (takeF) { e = focal.pop(); touchCell(e.node); closedCell[e.node] = 1; inOpen[e.node] = 0; }
                 else { e = open.pop(); touchCell(e.node); expOptimal[e.node] = 1; closedCell[e.node] = 1; inOpen[e.node] = 0; }
             } else {
@@ -187,7 +188,7 @@ struct JPSWA {
                 int jn = m.id(jx, jy); C hf = hval(jx, jy);
                 if (mode == 0) { if (closedCell[jn]) continue; if (lt(jg, gcell[jn])) { touchCell(jn); gcell[jn] = jg; open.push({fval(jg, hf, W2), jg, seq++, jn, di}); st.generated++; } }
                 else if (mode == 1) { size_t k = (size_t)jn * 9 + di; if (closedSt[k]) continue; if (lt(jg, gst[k])) { touchState(k); gst[k] = jg; open.push({fval(jg, hf, W2), jg, seq++, jn, di}); st.generated++; } }
-                else { if (lt(jg, gcell[jn])) { touchCell(jn); gcell[jn] = jg; inOpen[jn] = 1; open.push({fval(jg, hf, 2), jg, seq++, jn, di}); st.generated++; if (!closedCell[jn]) focal.push({fval(jg, hf, W2), jg, seq++, jn, di}); } }
+                else { if (lt(jg, gcell[jn])) { touchCell(jn); gcell[jn] = jg; inOpen[jn] = 1; open.push({fval(jg, hf, QQ), jg, seq++, jn, di}); st.generated++; if (!closedCell[jn]) focal.push({fval(jg, hf, W2), jg, seq++, jn, di}); } }
             }
         }
         st.scanned = scanned; return st;
@@ -221,7 +222,6 @@ int main(int argc, char** argv) {
     { int q = 1; while (q <= 1000 && std::fabs(w * q - std::lround(w * q)) > 1e-9) q++; if (q > 1000) { fprintf(stderr, "w not rational\n"); return 1; }
       W2 = (int)std::lround(w * q); QQ = q; }
     for (int i = 4; i + 1 < argc; i += 2) { std::string k = argv[i]; std::string v = argv[i + 1]; if (k == "--cc") CC = v == "1"; else if (k == "--bound") BOUND = atoi(v.c_str()); }
-    if (alg == "jps_fls") { fprintf(stderr, "FLS not supported in jpswa_var\n"); return 1; }
     Map m; if (!load_map(mapfn, m)) { fprintf(stderr, "cannot load map\n"); return 1; }
     std::vector<Inst> insts; std::string mn; if (!load_scen(scenfn, insts, mn)) { fprintf(stderr, "cannot load scen\n"); return 1; }
     printf("id,alg,w,tie,cost_a,cost_b,cost,opt_a,opt_b,opt,bound_ok,found,expanded,generated,scanned,maxexp_cell,micros\n");

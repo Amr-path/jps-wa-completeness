@@ -1,0 +1,12 @@
+pinwheel w 1 complete complete
+pinwheel w 1.1 complete complete
+pinwheel w 1.2 complete complete
+pinwheel w 1.5 complete complete
+pinwheel w 2 complete complete
+pinwheel w 3 complete complete
+pinwheel w 5 complete complete
+pinwheel w 10 complete complete
+pinwheel w 100 complete complete
+pinwheel w 1000000.0 complete complete
+pinwheel anyorder FAIL
+{('min_slack', 'FAIL', 'exact anyorder', 'FAIL'): 71, ('min_slack', 'complete', 'exact anyorder', 'complete'): 183, ('min_slack', 'LB', 'exact anyorder', 'FAIL'): 9, ('min_slack', 'LB', 'exact anyorder', 'complete'): 7}

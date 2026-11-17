@@ -1,0 +1,4 @@
+0s 500 {'complete': 4500}
+1s 1000 {'complete': 9000}
+1s 1500 {'complete': 13500}
+DONE exh_7_1 instances=1892 runs=17028 {'complete': 17028} 1s

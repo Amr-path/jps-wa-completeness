@@ -1,0 +1,9 @@
+0s 500 {'complete': 4500}
+1s 1000 {'complete': 9000}
+1s 1500 {'complete': 13500}
+2s 2000 {'complete': 18000}
+2s 2500 {'complete': 22500}
+3s 3000 {'complete': 27000}
+3s 3500 {'complete': 31500}
+3s 4000 {'complete': 36000}
+DONE designed instances=4370 runs=39330 {'complete': 39330} 4s

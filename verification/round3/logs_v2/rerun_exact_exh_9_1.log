@@ -1,0 +1,12 @@
+0s 500 {'complete': 4500}
+1s 1000 {'complete': 9000}
+1s 1500 {'complete': 13500}
+1s 2000 {'complete': 18000}
+2s 2500 {'complete': 22500}
+2s 3000 {'complete': 27000}
+2s 3500 {'complete': 31500}
+3s 4000 {'complete': 36000}
+3s 4500 {'complete': 40500}
+4s 5000 {'complete': 45000}
+4s 5500 {'complete': 49500}
+DONE exh_9_1 instances=5700 runs=51300 {'complete': 51300} 4s

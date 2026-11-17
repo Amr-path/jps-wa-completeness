@@ -54,9 +54,10 @@ needs them), g++ with C++17 (and OpenMP for `jpswa.cpp`).
 g++ -O2 -std=c++17 -o cpp/jpswa_bench cpp/jpswa_bench.cpp
 g++ -O2 -std=c++17 -o cpp/jpswa_exact cpp/jpswa_exact.cpp
 g++ -O2 -std=c++17 -o cpp/jpswa_var cpp/jpswa_var.cpp
+g++ -O2 -std=c++17 -o cpp/jpswa_exact2 cpp/jpswa_exact2.cpp
 cp cpp/jpswa_bench cpp/jpswa_bench_prio
 g++ -O2 -std=c++17 -fopenmp -o cpp/jpswa cpp/jpswa.cpp
-for f in results results_x results_tie_x results_time_x results_var results_robot; do tar xJf $f.tar.xz; done
+for f in results results_x results_tie_x results_time_x results_var results_robot results_mem results_var_time results_reopen_time; do tar xJf $f.tar.xz; done
 ```
 
 `results_tie.tar.xz` and `results_time3.tar.xz` hold earlier double-precision runs that the paper no longer
@@ -72,19 +73,24 @@ them under `ext/grid_benchmarks/maps/<collection>/` and `ext/grid_benchmarks/sce
 | Lemma 4.1 (J contains an optimal path), computer check of both halves of the proof | `verification/round5/lemma_jpath_test.py` | `verification/round5/lemma_jpath_*.log` |
 | Thm 4.2, check of the optimal path in J | `cpp/jpswa_bench.cpp` (state-closing, w=1) | `results/*.jps_state.w1.csv` |
 | Thm 5.1, Table 1 (pinwheel run) | `verification/pinwheel*.py`, `verification/verify/replay_pinwheel.py` | script output |
-| Lemma 5.3 | `verification/verify/lemma_frontier_test.py` | `verification/verify/lemma_rand_11.log` |
+| Lemma 5.3 (proof in App. A) | `verification/verify/lemma_frontier_test.py` | `verification/verify/lemma_rand_11.log` |
 | Table 2 (exhaustive order adversary) | `ref/adversary.py` (random 4-6), `ref/adv_struct.py`, `ref/adv_big.py` | `ref/advs_3*.log`, `ref/advst_5*.log`, `ref/advbig_7*.log` |
 | Sec. 7, WA* adversary on the families | `verification/round3/search_designed.py`, `exhaustive_pin1.py`, `designed_recount.py` | `verification/round3/logs_v2/designed_*.log`, `exh_*.log` |
+| Sec. 7, WA* adversary in exact arithmetic (costs a + b sqrt2, priority Q g + P h), all four families at their nine weights | `verification/round3/core_exact.py`, `rerun_exact.py`, `rerun_exact.sh`; check of the adversary in `test_core_exact.py` | `verification/round3/logs_v2/rerun_exact_*.log`, `test_core_exact.log` |
 | Sec. 7, rerun at w=1e6 with relative tolerance; counts of instances with a failing order | `verification/round3/rerun_tol.py`, `rerun_tol.sh` | `verification/round3/logs_v2/rerun_tol_*.log` |
 | Sec. 7, exact slacks | `verification/round3/slack_threshold.py`, `exact_examples.py`, `resume_slacks*.py`; independent check in `independent_check/` | `logs_v2/exact_examples.log`, `logs_v2/exact_slacks3.log`, `independent_check/*.out` |
 | Sec. 7, hill climbs | `verification/round3/climb.py`, `parse_climbs.py` | `logs_v2/climb_*.log`, `logs_v2/climb_endpoints.json` |
 | Sec. 7, SAT result for maps within 7x7 | `verification/sat/run_lazy.py` (CNFs: `cnf_build.py` / `prebuild.py`) | `verification/sat/logs/lazyv2_N7_*.log`, `logs/mac_run/` |
-| Sec. 7 / App. A, DRAT certificates for the 16 targets at w=1 | `verification/sat/drat_run.py` (final formula = base CNF + clauses added by the loop; standalone CaDiCaL 3.0.1 with DRAT output; drat-trim), driver `verification/sat/run_drat.sh` (copy it two levels up, next to `jps-wa/`, as in the pack it was run from), progress display `drat_progress.py` | `verification/sat/drat/drat_t*.log` (verdicts, sizes, times, sha256), `final_t*.cnf.gz` (the 16 certified formulas), `tools.txt` (solver and checker commits) |
+| Sec. 7 / App. B, DRAT certificates for the 16 targets at w=1 | `verification/sat/drat_run.py` (final formula = base CNF + clauses added by the loop; standalone CaDiCaL 3.0.1 with DRAT output; drat-trim), driver `verification/sat/run_drat.sh` (copy it two levels up, next to `jps-wa/`, as in the pack it was run from), progress display `drat_progress.py` | `verification/sat/drat/drat_t*.log` (verdicts, sizes, times, sha256), `final_t*.cnf.gz` (the 16 certified formulas), `tools.txt` (solver and checker commits) |
 | Sec. 7, implementation checks of Lemma 7.1, the invariant f_w <= w C*, late improving arrivals (run with PYTHONHASHSEED=0) | `verification/round4/lemmaA_test.py`, `lemmaB_test.py`, `verification/round3/lemma_tests3.py` | `verification/round4/logs/lemmaA_seed0.log`, `lemmaB_seed0.log`, `verification/round3/logs_v2/lemma_tests3_seed0.log` |
 | Sec. 8, Table 4, Fig. 4, correctness and cost ratios (exact arithmetic) | `cpp/jpswa_exact.cpp`, `cpp/run_exact.sh` (main stream), `cpp/analyze_exact.py` | `results_x.tar.xz` |
 | Sec. 8, correctness of cell-closing under the other three tie rules (exact arithmetic) | `cpp/run_exact.sh` (tie stream), `cpp/analyze_exact.py` | `results_tie_x.tar.xz` |
 | Sec. 8, Running time (Table 5) | `cpp/run_timing_x.sh` (`jpswa_exact --timing 1`), `cpp/time_table_x.py` (optima from `results_x`) | `results_time_x.tar.xz` |
 | Sec. 8, Variants that fail (bounded JPS, corner cutting) | `cpp/jpswa_var.cpp`, `cpp/run_var.sh`, `cpp/analyze_extra.py var` | `results_var.tar.xz` |
+| Sec. 8, FLS on the failing variants | `cpp/jpswa_var.cpp` (`jps_fls`, general rational w), `cpp/run_var_fls.sh`, `cpp/analyze_var_fls.py` | `results_var.tar.xz` (`*.jps_fls.*`), `summaries_rev10/results_var_fls_summary.txt` |
+| Sec. 8, bootstrap intervals for Table 5 | `cpp/time_ci.py` | `summaries_rev10/results_time_ci.txt` |
+| Sec. 8, Running time on the failing variants; running time with re-expansions | `cpp/run_var_timing.sh`, `cpp/run_reopen_timing.sh`, `cpp/time_var.py` | `results_var_time.tar.xz`, `results_reopen_time.tar.xz`, `summaries_rev10/results_var_time_summary.txt` |
+| Sec. 8, Memory; Re-expansions | `cpp/jpswa_exact2.cpp` (`jps_reopen`, counters `peak_open`, `records`, `reexp`), `cpp/run_mem.sh`, `cpp/analyze_mem.py` | `results_mem.tar.xz`, `summaries_rev10/results_mem_summary.txt` |
 | Sec. 8, Robot occupancy grids | `robotmaps/scripts/`, `cpp/run_robot.sh`, `cpp/analyze_extra.py robot` | `robotmaps/`, `results_robot.tar.xz` |
 | Sec. 8, other priority functions (XDP, XUP; double precision) | `cpp/run_prio.sh` (`jpswa_bench_prio`) | `results.tar.xz` (`results_prio/`) |
 

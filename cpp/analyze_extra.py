@@ -50,7 +50,7 @@ def var():
     tot = defaultdict(int); fail = defaultdict(int); nfk = defaultdict(int); bk = defaultdict(int)
     E = defaultdict(int); N = defaultdict(int); colls = defaultdict(set); mx = defaultdict(float)
     for fn in glob.glob(ROOT + '/results_var/*.csv'):
-        m = re.search(r'/([^/.]+)\.(.*)\.(bjps8|cc)\.(jps_cell|jps_state)\.w([0-9.]+)\.csv$', fn)
+        m = re.search(r'/([^/.]+)\.(.*)\.(bjps8|cc)\.(jps_cell|jps_state|jps_fls)\.w([0-9.]+)\.csv$', fn)
         c, mp, v, a, w = m.groups(); colls[c].add(mp)
         for r in csv.DictReader(open(fn)):
             if r['opt_a'] == '-1': continue
@@ -60,7 +60,8 @@ def var():
             E[k] += int(r['expanded']); N[k] += 1; mx[k] = max(mx[k], float(r['cost']) / float(r['opt']))
     print('var maps per collection', {c: len(s) for c, s in colls.items()})
     for v in ('bjps8', 'cc'):
-        for a in ('jps_cell', 'jps_state'):
+        for a in ('jps_cell', 'jps_state', 'jps_fls'):
+            if not tot[(v, a, '2')]: continue
             print(v, a, ' | '.join('w=%s: %d/%d fail (%d not found, %d bound) meanexp %.0f maxratio %.3f' % (
                 w, fail[(v, a, w)], tot[(v, a, w)], nfk[(v, a, w)], bk[(v, a, w)],
                 E[(v, a, w)] / max(1, N[(v, a, w)]), mx[(v, a, w)]) for w in WS))
